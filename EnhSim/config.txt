@@ -1,0 +1,218 @@
+### Saved by v1.9.8.10 of EnhSimGUI
+
+config_version                  1.9.8.10
+simulation_time                 5000
+simulation_time_combatlog       300
+combat_length                   7.00
+report_count                    80
+threads                         1
+combat_length_rng_factor        0.35
+min_lag                         230
+max_lag                         260
+simulate_mana                   1
+cast_sr_on_cooldown             1
+
+ep_precision                    2
+ep_base_stat                    ap
+ep_ap                           80
+ep_crit_rating                  40
+ep_hit_rating                   40
+ep_expertise                    4
+ep_haste_rating                 40
+ep_armor_penetration_rating     40
+ep_spellpower                   46
+ep_dps                          7.5
+ep_mana                         600
+ep_spirit                       40
+ep_mp5                          40
+
+mh_auto_attack                  1
+oh_auto_attack                  1
+wait_ss_with_wf_cd              0.00
+cast_ll_only_if_wf_on_cd        0
+use_bloodlust                   1
+always_bloodlust_wolves         0
+sync_bloodlust_with_trinkets    0
+cast_lvb_only_if_ed_left        15.0
+cast_lvb_only_if_fsdots_left    4
+cast_lvb_only_if_fs_active      1
+cast_fs_only_if_dots_left       0
+cast_ls_only_if_charges_left    2
+cast_magma_only_if_ticks_left   2
+cast_sr_only_if_mana_left       1250
+use_mana_potion_if_mana_left    3000
+necrotic_touch                  0
+necrotic_touch_heroic           0
+
+rotation_priority_count         14
+rotation_priority1              MW5_LB
+rotation_priority2              FS
+rotation_priority3              SS_0
+rotation_priority4              LS_0
+rotation_priority5              FE
+rotation_priority6              MT_0
+rotation_priority7              SW
+rotation_priority8              SR
+rotation_priority9              ES
+rotation_priority10             SS
+rotation_priority11             LL
+rotation_priority12             FN
+rotation_priority13             MT
+rotation_priority14             LS
+
+aoe_rotation_priority_count     12
+aoe_rotation_priority1          FE
+aoe_rotation_priority2          FN
+aoe_rotation_priority3          MT_0
+aoe_rotation_priority4          MW5_CL
+aoe_rotation_priority5          SR
+aoe_rotation_priority6          FS
+aoe_rotation_priority7          SS_0
+aoe_rotation_priority8          LS_0
+aoe_rotation_priority9          SW
+aoe_rotation_priority10         ES
+aoe_rotation_priority11         SS
+aoe_rotation_priority12         LL
+
+fight_name                      standard_single_target
+miss                            8.00
+dodge                           6.50
+glancing                        24.00
+armor                           10643
+spell_miss                      17.00
+nature_resistance               0
+fire_resistance                 0
+frost_resistance                0
+arcane_resistance               0
+shadow_resistance               0
+
+additional_targets              0
+additional_target_percent       0.00
+additional_target_level         80
+
+armor_debuff_major              20.0/20.0
+armor_debuff_minor              5.0/5.0
+physical_vulnerability_debuff   4.0/4.0
+melee_haste_buff                20.0/20.0
+melee_crit_chance_buff          5.0/5.0
+attack_power_buff_flat          687/687
+attack_power_buff_multiplier    99.7/99.7
+spell_haste_buff                5.0/5.0
+spell_crit_chance_buff          5.0/5.0
+spell_crit_chance_debuff        5.0/5.0
+spell_damage_debuff             13.0/13.0
+spellpower_buff                 280/280
+spell_hit_chance_debuff         3.0/3.0
+haste_buff                      3.0/3.0
+percentage_damage_increase      3.0/3.0
+crit_chance_debuff              3.0/3.0
+stat_multiplier                 10.0/10.0
+stat_add_buff                   51/51
+agi_and_strength_buff           178/178
+intellect_buff                  60/60
+
+replenishment                   1
+water_shield                    0
+mana_spring_totem               0
+blessing_of_wisdom              1
+judgement_of_wisdom             1
+mixology                        0
+
+flask_elixir                    flask_of_endless_rage
+guardian_elixir                 -
+potion                          potion_of_speed
+food                            fish_feast
+
+###############################################################################
+### Everything in the section below can be replaced by information obtained ###
+### from your paper doll stats or exported by the ShockAndAwe addon         ###
+###############################################################################
+
+race                            orc
+mh_speed                        2.6
+oh_speed                        2.6
+mh_dps                          264.6
+oh_dps                          264.6
+mh_crit                         51.46
+oh_crit                         51.46
+mh_hit                          13.75
+oh_hit                          13.75
+mh_expertise_rating             120
+oh_expertise_rating             120
+ap                              4778
+melee_haste                     51.26
+armor_penetration               0.00
+str                             143
+agi                             1551
+int                             971
+spi                             165
+spellpower                      1829
+spell_crit                      37.95
+spell_hit                       17.19
+spell_haste                     39.43
+max_mana                        18681
+mp5                             0
+
+mh_imbue                        windfury
+oh_imbue                        flametongue
+
+mh_enchant                      berserking
+oh_enchant                      berserking
+
+mh_weapon                       axe
+oh_weapon                       axe
+
+trinket1                        charred_twilight_scale_heroic
+trinket2                        herkuml_war_token
+
+totem                           bizuris_totem_of_shattered_ice
+
+set_bonus1                      t10_battlegear_4
+set_bonus2                      -
+set_bonus3                      -
+
+metagem                         relentless_earthsiege_diamond
+
+gloves_enchant                  -
+cloak_enchant                   -
+ring_proc                       ashen_verdict
+
+glyph_major1                    windfury_weapon
+glyph_major2                    lightning_shield
+glyph_major3                    stormstrike
+
+glyph_minor1                    -
+glyph_minor2                    -
+glyph_minor3                    -
+
+ancestral_knowledge             3/5
+improved_shields                3/3
+mental_dexterity                3/3
+shamanistic_focus               0/1
+flurry                          5/5
+elemental_weapons               3/3
+unleashed_rage                  3/3
+weapon_mastery                  3/3
+dual_wield_specialization       3/3
+mental_quickness                3/3
+improved_stormstrike            0/2
+static_shock                    3/3
+maelstrom_weapon                5/5
+
+convection                      0/5
+concussion                      5/5
+call_of_flame                   3/3
+elemental_devastation           3/3
+reverberation                   2/5
+elemental_focus                 0/1
+elemental_fury                  5/5
+improved_fire_nova              2/2
+call_of_thunder                 0/1
+unrelenting_storm               0/3
+elemental_precision             0/3
+lightning_mastery               0/5
+elemental_oath                  0/2
+lightning_overload              0/5
+lava_flows                      0/3
+storm_earth_and_fire            0/3
+shamanism                       0/5

@@ -1,0 +1,205 @@
+### Saved by v1.9.8.10 of EnhSimGUI
+
+config_version                  1.9.8.10
+simulation_time                 1000
+simulation_time_combatlog       30
+combat_length                   10.00
+report_count                    80
+threads                         1
+combat_length_rng_factor        0
+min_lag                         0
+max_lag                         0
+simulate_mana                   1
+cast_sr_on_cooldown             1
+
+ep_precision                    2
+ep_base_stat                    ap
+ep_ap                           200
+ep_crit_rating                  30
+ep_hit_rating                   30
+ep_expertise                    4
+ep_haste_rating                 30
+ep_armor_penetration_rating     30
+ep_spellpower                   150
+ep_dps                          7.5
+ep_mana                         250
+ep_spirit                       150
+ep_mp5                          20
+
+mh_auto_attack                  1
+oh_auto_attack                  1
+wait_ss_with_wf_cd              0.00
+cast_ll_only_if_wf_on_cd        1
+use_bloodlust                   1
+always_bloodlust_wolves         1
+sync_bloodlust_with_trinkets    0
+cast_lvb_only_if_ed_left        15.0
+cast_lvb_only_if_fsdots_left    4
+cast_lvb_only_if_fs_active      0
+cast_fs_only_if_dots_left       0
+cast_ls_only_if_charges_left    2
+cast_magma_only_if_ticks_left   2
+cast_sr_only_if_mana_left       1250
+use_mana_potion_if_mana_left    3000
+necrotic_touch                  0
+necrotic_touch_heroic           0
+
+rotation_priority_count         13
+rotation_priority1              MW5_LB
+rotation_priority2              FS
+rotation_priority3              SS_0
+rotation_priority4              LS_0
+rotation_priority5              MT_0
+rotation_priority6              SW
+rotation_priority7              SR
+rotation_priority8              ES
+rotation_priority9              SS
+rotation_priority10             FN
+rotation_priority11             LL
+rotation_priority12             MT
+rotation_priority13             LS
+
+aoe_rotation_priority_count     0
+
+fight_name                      
+miss                            8.0
+dodge                           6.5
+glancing                        24.0
+armor                           10645
+spell_miss                      17.0
+nature_resistance               0
+fire_resistance                 0
+frost_resistance                0
+arcane_resistance               0
+shadow_resistance               0
+
+additional_targets              0
+additional_target_percent       0.0
+additional_target_level         0
+
+armor_debuff_major              20.0/20.0
+armor_debuff_minor              5.0/5.0
+physical_vulnerability_debuff   4.0/4.0
+melee_haste_buff                20.0/20.0
+melee_crit_chance_buff          5.0/5.0
+attack_power_buff_flat          687/687
+attack_power_buff_multiplier    99.7/99.7
+spell_haste_buff                5.0/5.0
+spell_crit_chance_buff          5.0/5.0
+spell_crit_chance_debuff        5.0/5.0
+spell_damage_debuff             13.0/13.0
+spellpower_buff                 280/280
+spell_hit_chance_debuff         3.0/3.0
+haste_buff                      3.0/3.0
+percentage_damage_increase      3.0/3.0
+crit_chance_debuff              3.0/3.0
+stat_multiplier                 10.0/10.0
+stat_add_buff                   51/51
+agi_and_strength_buff           178/178
+intellect_buff                  60/60
+
+replenishment                   1
+water_shield                    0
+mana_spring_totem               0
+blessing_of_wisdom              1
+judgement_of_wisdom             1
+mixology                        0
+
+flask_elixir                    flask_of_endless_rage
+guardian_elixir                 -
+potion                          -
+food                            fish_feast
+
+###############################################################################
+### Everything in the section below can be replaced by information obtained ###
+### from your paper doll stats or exported by the ShockAndAwe addon         ###
+###############################################################################
+
+race                            orc
+mh_speed                        2.6
+oh_speed                        2.6
+mh_dps                          264.6
+oh_dps                          264.6
+mh_crit                         53.60
+oh_crit                         53.60
+mh_hit                          15.25
+oh_hit                          15.25
+mh_expertise_rating             100
+oh_expertise_rating             100
+ap                              5253
+melee_haste                     38.42
+armor_penetration               18.22
+str                             143
+agi                             1862
+int                             745
+spi                             165
+spellpower                      1576
+spell_crit                      35.01
+spell_hit                       19.06
+spell_haste                     29.55
+max_mana                        15291
+mp5                             0
+
+mh_imbue                        windfury
+oh_imbue                        flametongue
+
+mh_enchant                      berserking
+oh_enchant                      berserking
+
+mh_weapon                       axe
+oh_weapon                       axe
+
+trinket1                        herkuml_war_token
+trinket2                        sharpened_twilight_scale_heroic
+
+totem                           bizuris_totem_of_shattered_ice
+
+set_bonus1                      t10_battlegear_4
+set_bonus2                      -
+set_bonus3                      -
+
+metagem                         relentless_earthsiege_diamond
+
+gloves_enchant                  hyperspeed_accelerators
+cloak_enchant                   -
+ring_proc                       ashen_verdict
+
+glyph_major1                    fire_nova
+glyph_major2                    stormstrike
+glyph_major3                    windfury_weapon
+
+glyph_minor1                    -
+glyph_minor2                    -
+glyph_minor3                    -
+
+ancestral_knowledge             2/5
+improved_shields                3/3
+mental_dexterity                3/3
+shamanistic_focus               0/1
+flurry                          5/5
+elemental_weapons               3/3
+unleashed_rage                  3/3
+weapon_mastery                  3/3
+dual_wield_specialization       3/3
+mental_quickness                3/3
+improved_stormstrike            0/2
+static_shock                    3/3
+maelstrom_weapon                5/5
+
+convection                      0/5
+concussion                      5/5
+call_of_flame                   3/3
+elemental_devastation           3/3
+reverberation                   0/5
+elemental_focus                 1/1
+elemental_fury                  5/5
+improved_fire_nova              2/2
+call_of_thunder                 0/1
+unrelenting_storm               0/3
+elemental_precision             0/3
+lightning_mastery               0/5
+elemental_oath                  0/2
+lightning_overload              0/5
+lava_flows                      0/3
+storm_earth_and_fire            0/3
+shamanism                       0/5

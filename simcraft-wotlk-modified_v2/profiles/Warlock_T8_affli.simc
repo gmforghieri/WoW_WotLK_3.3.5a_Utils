@@ -1,0 +1,58 @@
+#!./simc 
+
+warlock=Warlock_T8_affli
+origin="http://profiler.wowhead.com/profile=15214160"
+level=80
+race=undead
+use_pre_potion=-1
+talents=http://www.wowarmory.com/talent-calc.xml?cid=9&tal=235002200102351025350033115100000000000000000000000000055001005
+glyphs=quick_decay/haunt/life_tap
+actions=flask,type=frost_wyrm
+actions+=/food,type=fish_feast
+actions+=/spell_stone
+actions+=/fel_armor
+actions+=/summon_pet,felhunter
+actions+=/snapshot_stats
+actions+=/life_tap,buff_refresh=1
+actions+=/shadow_bolt,isb_trigger=1
+#actions+=/wild_magic_potion,if=!in_combat
+actions+=/speed_potion,if=buff.bloodlust.react
+actions+=/haunt,if=(buff.haunted.remains<3)|(dot.corruption.remains<4)
+actions+=/corruption,if=!ticking
+actions+=/unstable_affliction,time_to_die>=5,if=(dot.unstable_affliction.remains<cast_time)
+actions+=/curse_of_agony,time_to_die>=20,if=!ticking
+actions+=/drain_soul,health_percentage<=25,interrupt=1
+actions+=/shadow_bolt
+actions+=/life_tap
+head=deathbringer_head,stats=282armor_86crit_76int_41spi_113sp_89sta,gems=chaotic_skyflare_8spi_9sp_8crit,enchant=30sp_20crit
+neck=unblinking_eye,stats=49crit_41spi_43int_74sp_46sta
+shoulders=soot_covered_mantle,stats=260armor_52hit_65int_49spi_90sp_64sta,gems=8spi_9sp_5sp,enchant=24sp_15crit
+chest=deathbringer_robe,stats=347armor_73hit_66crit_76int_124sp_83sta,gems=19sp_9sp_8haste_7sp,enchant=10str_10agi_10sta_10int_10spi
+waist=sash_of_potent_incantations,stats=195armor_40crit_60spi_100sp_73sta_60int,gems=19sp
+legs=leggings_of_lost_love,stats=303armor_99sta_81int_86spi_115sp_41haste,gems=19sp_19sp,enchant=50sp_20spi
+feet=boots_of_impertous_ideals,stats=238armor_64sta_57int_37hit_55haste_88sp,enchant=18spi
+wrists=grips_of_chaos,stats=152armor_46sta_49int_46spi_74sp_36hit,enchant=30sp
+hands=touch_of_occult,stats=217armor_73sta_60int_60spi_100sp_49haste,enchant=28sp
+finger1=band_of_channeled_magic,stats=42sta_41int_32spi_43haste_65sp,enchant=23sp
+finger2=lost_jewel,stats=45sta_38int_37spi_42crit_65sp,enchant=23sp
+trinket1=scale_of_fates,stats=125sp,equip=onspellcast_432haste_30%_20dur_120cd
+trinket2=dying_curse,stats=71hit,equip=onspellcast_765sp_15%_10dur_45cd
+back=shroud_of_winters_chill,stats=182armor_51sta_51int_78sp_45crit_45haste,enchant=lightweave_embroidery
+main_hand=intensity,stats=105sta_121int_86spi_550sp_120hit,enchant=81sp,weapon=staff_2.1speed_231min_427max
+ranged=quartz_crystal_wand,stats=33sta_25int_24spi_44sp_27hit
+# Gear Summary
+# gear_strength=10
+# gear_agility=10
+# gear_stamina=1155
+# gear_intellect=1158
+# gear_spirit=738
+# gear_spell_power=3049
+# gear_hit_rating=297
+# gear_crit_rating=650
+# gear_haste_rating=596
+# gear_armor=2176
+# meta_gem=chaotic_skyflare
+# tier9_2pc_caster=1
+# tier9_4pc_caster=1
+# back=lady_liadrins_conviction,heroic=1,enchant=lightweave_embroidery
+# main_hand=barb_of_tarasque,heroic=1,weapon=dagger_1.80speed_108.12001037597656min_342.1199951171875max

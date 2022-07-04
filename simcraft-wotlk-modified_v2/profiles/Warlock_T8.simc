@@ -1,0 +1,13 @@
+#!simc
+
+Globals_T8.simc
+
+optimal_raid=1
+#optimal_raid=0
+calculate_scale_factors=1
+
+Warlock_T8_affli.simc
+Warlock_T8_demo_FG.simc
+Warlock_T8_demo_imp.simc
+Warlock_T8_hybrid.simc
+Warlock_T8_destro_replenish.simc

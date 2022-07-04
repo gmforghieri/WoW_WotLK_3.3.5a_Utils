@@ -1,0 +1,6 @@
+#####################
+##ENHSIM EP EXPORTS##
+#####################
+
+( Pawn: v1: "EnhSim": Ap=$attackpower, CritRating=$crit, HitRating=$hit, HasteRating=$haste, ExpertiseRating=$expertise, ArmorPenetration=$armorp, SpellDamage=$spellpower, MainHandDps=$mhdps, OffHandDps=$ohdps, Strength=$strength, Agility=$agility, Intellect=$intelligence, Spirit=$spirit, Mana=$mana, Mp5=$mp5 )
+http://www.lootrank.com/wow/wr.asp?Cla=64&Str=$strength&mh=$haste&dps=$mhdps&mp5=$mp5&mcr=$crit&odps=$ohdps&spd=$spellpower&Agi=$agility&mhit=$hit&Int=$intelligence&Spi=$spirit&map=$attackpower&arp=$armorp&Exp=$expertise

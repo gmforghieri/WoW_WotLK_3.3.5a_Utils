@@ -1,0 +1,47 @@
+EnhSim version 1.9.8.10
+
+Spell hit + EP range goes past cap by 6.19364% (162.472 hit rating).
+Expertise is past cap, EP expertise test will be skipped.
+
+Calculating EP values...
+Calculation 1/14: Baseline DPS calculated.
+Calculation 2/14: Attack power calculated.
+Calculation 3/14: Crit(physical) calculated.
+Calculation 4/14: Crit(spell) calculated.
+Calculation 5/14: Hit calculated.
+Calculation 6/14: Expertise skipped.
+Calculation 7/14: Haste calculated.
+Calculation 8/14: Armor Penetration calculated.
+Calculation 9/14: Spellpower calculated.
+Calculation 10/14: Mh Dps calculated.
+Calculation 11/14: Oh Dps calculated.
+Calculation 12/14: Mana calculated.
+Calculation 13/14: Spirit calculated.
+Calculation 14/14: Mp5 calculated.
+
+
+EP                        value     DPS       total DPS      difference
+
+baseline                                      13311.38
+ap                        1.00      1.01      13512.99       201.60
+crit rating               1.26      1.27      13349.60       38.21
+hit rating                2.93      2.96      13400.07       88.68
+expertise rating          0.00      0.00      0.00           -13311.38
+haste rating              0.82      0.83      13336.25       24.87
+armor penetration rating  1.79      1.80      13365.49       54.11
+spellpower                0.99      1.00      13461.34       149.96
+mh dps                    6.11      6.16      13357.57       46.18
+oh dps                    2.83      2.85      13332.76       21.38
+strength                  1.10      
+agility                   1.34      
+intelligence              1.68      
+spirit                    0.03      0.03      13315.87       4.49
+mana                      0.02      0.02      13315.19       3.80
+mp5                       0.07      0.07      13312.85       1.46
+
+( Pawn: v1: "EnhSim": Ap=1.00, CritRating=1.26, HitRating=2.93, HasteRating=0.82, ExpertiseRating=0.00, ArmorPenetration=1.79, SpellDamage=0.99, MainHandDps=6.11, OffHandDps=2.83, Strength=1.10, Agility=1.34, Intellect=1.68, Spirit=0.03, Mana=0.02, Mp5=0.07 )
+http://www.lootrank.com/wow/wr.asp?Cla=64&Str=1.10&mh=0.82&dps=6.11&mp5=0.07&mcr=1.26&odps=2.83&spd=0.99&Agi=1.34&mhit=2.93&Int=1.68&Spi=0.03&map=1.00&arp=1.79&Exp=0.00
+
+elapsed simulation time: 13000.00h
+elapsed real time: 31.13s
+simulation speed: 1503324x

@@ -1,0 +1,95 @@
+Look here for error messages and simple text-only reporting.
+
+
+
+DPS Ranking:
+   5778 100.0%  Raid
+   5782  100.0%  dungeons
+
+Player: dungeons night_elf priest shadow 80
+  DPS: 5782.4  Error=1.9  Range=315  DPR=24.8  RPS=233.0/213.3  (mana)
+  Origin: C:\Users\PC\Downloads\Rawr-v2.3.23-fixedpics\Rawr-v2.3.23-fixed pics\peexy.xml
+  Core Stats:  strength=298|49(10)  agility=316|65(10)  stamina=1265|839(740)  intellect=1132|925(751)  spirit=804|607(426)  health=18970|15170  mana=20563|17458
+  Spell Stats:  power=2732|2068(1947)  hit=10.76%|9.76%(256)  crit=22.31%|13.06%(288)  penetration=0|0(0)  haste=25.60%|16.13%(529)  mp5=0|0(0)
+  Attack Stats  power=1162|39(0)  hit=8.81%|7.81%(256)  crit=20.52%|10.70%(288)  expertise=0.00|0.00(0)  penetration=0.00%|0.00%(0)  haste=43.54%|16.13%(529)
+  Defense Stats:  armor=6092|2052(1922)  blockv=149|25(0)  defense=0|0(0)  miss=1.70%|1.70%  dodge=0.00%|0.00%(0)  parry=0.00%|0.00%(0)  block=0.00%|0.00%(0) crit=13.90%|13.90%
+  Glyphs: 
+  Priorities:
+    flask,type=frost_wyrm/food,type=fish_feast/fortitude/divine_spirit/inner_fire
+    shadow_form/vampiric_embrace/snapshot_stats/use_item,name=heroes_gloves_of_faith
+    wild_magic_potion,if=!in_combat
+    speed_potion,if=buff.bloodlust.react|target.time_to_die<=20/shadow_fiend
+    shadow_word_pain,shadow_weaving_wait=1,if=!ticking/vampiric_touch,if=!ticking
+    vampiric_touch,if=dot.vampiric_touch.remains<cast_time
+    devouring_plague,if=!ticking/mind_blast,if=(use_mind_blast=1)&(spell_haste>0.60)
+    mind_blast,if=(use_mind_blast=2&recast_mind_blast=1)&(spell_haste>0.60)
+    shadow_word_death,mb_min_wait=0.3,mb_max_wait=1.2,if=(use_shadow_word_death>0)&(spell_haste>0.60)
+    mind_flay/shadow_word_death,moving=1/dispersion
+  Actions:
+    devouring_plague  Count= 16.2|18.92sec  DPE= 21554|20%  DPET= 16812  DPR=  23.8  pDPS=1163  Miss=0.16%  Hit=3097|2712|3785  Crit= 4782| 4273| 5847|30.1%  TickCount=126  MissTick=0.0%  Tick=1660|1469|2050  CritTick=3470|3071|4285|36.2%
+    mind_blast        Count= 33.0| 9.15sec  DPE=  5664|11%  DPET=  4390  DPR=  10.9  pDPS= 623  Miss=0.25%  Hit=4131|3415|4863  Crit= 8631| 7138|10163|34.3%
+    mind_flay         Count= 83.0| 3.58sec  DPE=  7657|37%  DPET=  3171  DPR=  27.9  pDPS=2121  Miss=0.22%  TickCount=248  MissTick=0.2%  Tick=1873|1569|2315  CritTick=3917|3279|4838|34.2%
+    shadow_word_pain  Count=  1.0| 1.17sec  DPE=174453|10%  DPET=144323  DPR= 218.6  pDPS= 585  Miss=0.51%  TickCount=97  MissTick=0.0%  Tick=1289|1222|1552  CritTick=2694|2555|3244|36.2%
+    vampiric_touch    Count= 25.1|12.15sec  DPE= 13780|20%  DPET= 10770  DPR=  23.8  pDPS=1153  Miss=0.22%  TickCount=123  MissTick=0.0%  Tick=2026|1748|2578  CritTick=4234|3653|5387|36.0%
+   shadow_fiend  (DPS=194.8)
+    melee             Count= 26.0| 7.83sec  DPE=  1594| 2%  DPET=  1313  DPR=   0.0  pDPS= 138  Miss=0.00%  Hit=1567|1469|1974  Crit= 3138| 2938| 3949|8.1%  Glance=1176|24.0%
+  Constant Buffs: arcane_brilliance/blessing_of_kings/blessing_of_might/blessing_of_wisdom/divine_spirit/focus_magic
+  Constant Buffs: fortitude/heroic_presence/inner_fire/inner_fire_armor/mark_of_the_wild/replenishment/shadow_form
+  Constant Buffs: vampiric_embrace
+  Dynamic Buffs:
+    bloodlust               : start=1.0   refresh=0.0    interval=  0.0|0.0    uptime=13%
+    dying_curse             : start=5.7   refresh=0.0    interval= 55.6|55.6   uptime=19%  trigger=15%
+    embrace_of_the_spider   : start=5.1   refresh=0.0    interval= 61.0|61.0   uptime=17%  trigger=10%
+    hyperspeed_accelerators : start=5.2   refresh=0.0    interval= 60.9|60.9   uptime=20%
+    improved_spirit_tap     : start=12.7  refresh=41.2   interval= 23.6|5.4    uptime=78%  trigger=56%
+    lightweave_embroidery   : start=5.0   refresh=0.0    interval= 64.1|64.1   uptime=25%  trigger=35%
+    shadow_weaving          : start=1.0   refresh=404.0  interval=  0.0|0.7    uptime=100%  benefit=100%
+    speed_potion            : start=1.0   refresh=0.0    interval=  0.0|0.0    uptime= 5%
+  Procs:
+    136.3 |   2.22sec : judgement_of_wisdom
+  Gains:
+     6086.0 : blessing_of_wisdom      (overflow=6.9%)
+    20563.0 : initial_mana          
+    10051.7 : judgement_of_wisdom     (overflow=4.5%)
+    11495.5 : replenishment           (overflow=6.6%)
+    15413.3 : shadow_fiend            (overflow=42.3%)
+    20912.2 : spirit_intellect_regen  (overflow=6.4%)
+  Scale Factors:
+    Weights :  Int=0.3116  Spi=0.0000  SP=1.5515  Hit=1.7003  Crit=0.9642  Haste=1.0924
+    Wowhead : http://www.wowhead.com/?items&filter=ub=5;gm=4;gb=1;wt=23:123:119:96:103;wtv=0.3116:1.5515:1.7003:0.9642:1.0924;
+  DPS Plot Data ( min=-200.0 max=200.0 points=21 )
+
+Auras and De-Buffs:
+  Constant: bleeding/blood_frenzy/crypt_fever/earth_and_moon/faerie_fire/hunters_mark/improved_scorch/insect_swarm
+  Constant: judgement_of_wisdom/leader_of_the_pack/mangle/master_poisoner/misery/moonkin/poisoned
+  Constant: sanctified_retribution/strength_of_earth/sunder_armor/swift_retribution/thunder_clap/totem_of_wrath
+  Constant: totem_of_wrath_debuff/trueshot/windfury_totem/wrath_of_air
+  Dynamic:
+
+Waiting:
+    All players active 100% of the time.
+
+Baseline Performance:
+  TotalEvents   = 15756074
+  MaxEventQueue = 14
+  TargetHealth  = 1730916
+  SimSeconds    = 3001176
+  CpuSeconds    = 1.066
+  SpeedUp       = 2815362
+
+RNG global Actual/Expected Roll=0.998516 Range=1.000000 Gauss=1.000170
+
+Scale Factors:
+  dungeons  Int=0.3116  Spi=0.0000  SP=1.5515  Hit=1.7003  Crit=0.9642  Haste=1.0924
+
+
+No active players in sim!
+No active players in sim!
+No active players in sim!
+No active players in sim!
+No active players in sim!
+No active players in sim!
+No active players in sim!
+No active players in sim!
+
+Simulation failed!
