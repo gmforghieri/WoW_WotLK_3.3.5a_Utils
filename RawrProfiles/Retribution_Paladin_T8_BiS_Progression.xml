@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Character xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Region>US</Region>
-  <Race>Orc</Race>
-  <Class>Warrior</Class>
-  <ActiveBuffs>Blessing of Sanctuary</ActiveBuffs>
-  <ActiveBuffs>Blessing of Sanctuary (Str/Sta Bonus)</ActiveBuffs>
-  <ActiveBuffs>Blessing of Kings</ActiveBuffs>
+  <Race>BloodElf</Race>
+  <Class>Paladin</Class>
   <ActiveBuffs>Strength of Earth Totem</ActiveBuffs>
   <ActiveBuffs>Enhancing Totems (Agility/Strength)</ActiveBuffs>
-  <ActiveBuffs>Stoneskin Totem</ActiveBuffs>
-  <ActiveBuffs>Improved Stoneskin Totem (Armor)</ActiveBuffs>
-  <ActiveBuffs>Devotion Aura</ActiveBuffs>
-  <ActiveBuffs>Improved Devotion Aura (Armor)</ActiveBuffs>
   <ActiveBuffs>Blessing of Might</ActiveBuffs>
   <ActiveBuffs>Improved Blessing of Might</ActiveBuffs>
   <ActiveBuffs>Unleashed Rage</ActiveBuffs>
-  <ActiveBuffs>Ferocious Inspiration</ActiveBuffs>
+  <ActiveBuffs>Sanctified Retribution</ActiveBuffs>
+  <ActiveBuffs>Blessing of Sanctuary</ActiveBuffs>
   <ActiveBuffs>Swift Retribution</ActiveBuffs>
   <ActiveBuffs>Commanding Shout</ActiveBuffs>
   <ActiveBuffs>Commanding Presence (Health)</ActiveBuffs>
+  <ActiveBuffs>Arcane Intellect</ActiveBuffs>
+  <ActiveBuffs>Leader of the Pack</ActiveBuffs>
   <ActiveBuffs>Improved Leader of the Pack</ActiveBuffs>
   <ActiveBuffs>Improved Icy Talons</ActiveBuffs>
+  <ActiveBuffs>Elemental Oath</ActiveBuffs>
+  <ActiveBuffs>Focus Magic</ActiveBuffs>
+  <ActiveBuffs>Totem of Wrath (Spell Power)</ActiveBuffs>
+  <ActiveBuffs>Power Word: Fortitude</ActiveBuffs>
+  <ActiveBuffs>Improved Power Word: Fortitude</ActiveBuffs>
   <ActiveBuffs>Mark of the Wild</ActiveBuffs>
   <ActiveBuffs>Improved Mark of the Wild</ActiveBuffs>
+  <ActiveBuffs>Blessing of Kings</ActiveBuffs>
   <ActiveBuffs>Sunder Armor</ActiveBuffs>
   <ActiveBuffs>Faerie Fire</ActiveBuffs>
-  <ActiveBuffs>Trauma</ActiveBuffs>
   <ActiveBuffs>Heart of the Crusader</ActiveBuffs>
-  <ActiveBuffs>Blood Frenzy</ActiveBuffs>
-  <ActiveBuffs>Curse of the Elements</ActiveBuffs>
+  <ActiveBuffs>Savage Combat</ActiveBuffs>
+  <ActiveBuffs>Improved Scorch</ActiveBuffs>
+  <ActiveBuffs>Earth and Moon</ActiveBuffs>
   <ActiveBuffs>Improved Faerie Fire</ActiveBuffs>
-  <ActiveBuffs>Judgements of the Just</ActiveBuffs>
   <ActiveBuffs>Flask of Endless Rage</ActiveBuffs>
-  <ActiveBuffs>Indestructible Potion</ActiveBuffs>
-  <ActiveBuffs>Indestructible Potion (Double Pot Trick)</ActiveBuffs>
-  <ActiveBuffs>Strength Food</ActiveBuffs>
-  <ActiveBuffs>Siegebreaker Battlegear (T8) 2 Piece Bonus</ActiveBuffs>
-  <ActiveBuffs>Siegebreaker Battlegear (T8) 4 Piece Bonus</ActiveBuffs>
-  <ActiveBuffs>Leader of the Pack</ActiveBuffs>
-  <CurrentModel>DPSWarr</CurrentModel>
+  <ActiveBuffs>Potion of Speed</ActiveBuffs>
+  <ActiveBuffs>Potion of Speed (Double Pot Trick)</ActiveBuffs>
+  <ActiveBuffs>Fish Feast</ActiveBuffs>
+  <ActiveBuffs>Aegis Battlegear 2 Piece Bonus</ActiveBuffs>
+  <ActiveBuffs>Aegis Battlegear 4 Piece Bonus</ActiveBuffs>
+  <CurrentModel>Retribution</CurrentModel>
   <EnforceMetagemRequirements>false</EnforceMetagemRequirements>
   <CalculationOptions>
     <item>
@@ -160,46 +160,1190 @@
 &lt;/CalculationOptionsBear&gt;</string>
       </value>
     </item>
+    <item>
+      <key>
+        <string>Mage</string>
+      </key>
+      <value>
+        <string>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;CalculationOptionsMage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;PlayerLevel&gt;80&lt;/PlayerLevel&gt;
+  &lt;UseFireWard&gt;false&lt;/UseFireWard&gt;
+  &lt;UseFrostWard&gt;false&lt;/UseFrostWard&gt;
+  &lt;FrostbiteUtilization&gt;1&lt;/FrostbiteUtilization&gt;
+  &lt;MaxUseAssumption&gt;true&lt;/MaxUseAssumption&gt;
+  &lt;Beta&gt;false&lt;/Beta&gt;
+  &lt;TargetLevel&gt;83&lt;/TargetLevel&gt;
+  &lt;AoeTargetLevel&gt;80&lt;/AoeTargetLevel&gt;
+  &lt;LatencyCast&gt;0.01&lt;/LatencyCast&gt;
+  &lt;LatencyGCD&gt;0.05&lt;/LatencyGCD&gt;
+  &lt;LatencyChannel&gt;0.2&lt;/LatencyChannel&gt;
+  &lt;MovementFrequency&gt;0&lt;/MovementFrequency&gt;
+  &lt;MovementDuration&gt;0&lt;/MovementDuration&gt;
+  &lt;AoeTargets&gt;9&lt;/AoeTargets&gt;
+  &lt;ArcaneResist&gt;0&lt;/ArcaneResist&gt;
+  &lt;FireResist&gt;0&lt;/FireResist&gt;
+  &lt;FrostResist&gt;0&lt;/FrostResist&gt;
+  &lt;NatureResist&gt;0&lt;/NatureResist&gt;
+  &lt;ShadowResist&gt;0&lt;/ShadowResist&gt;
+  &lt;HolyResist&gt;0&lt;/HolyResist&gt;
+  &lt;FightDuration&gt;300&lt;/FightDuration&gt;
+  &lt;TpsLimit&gt;0&lt;/TpsLimit&gt;
+  &lt;HeroismAvailable&gt;true&lt;/HeroismAvailable&gt;
+  &lt;PowerInfusionAvailable&gt;false&lt;/PowerInfusionAvailable&gt;
+  &lt;PotionOfWildMagic&gt;true&lt;/PotionOfWildMagic&gt;
+  &lt;PotionOfSpeed&gt;true&lt;/PotionOfSpeed&gt;
+  &lt;FlameCap&gt;false&lt;/FlameCap&gt;
+  &lt;MoltenFuryPercentage&gt;0.3&lt;/MoltenFuryPercentage&gt;
+  &lt;MaintainScorch&gt;false&lt;/MaintainScorch&gt;
+  &lt;MaintainSnare&gt;false&lt;/MaintainSnare&gt;
+  &lt;InterruptFrequency&gt;0&lt;/InterruptFrequency&gt;
+  &lt;AoeDuration&gt;0&lt;/AoeDuration&gt;
+  &lt;SmartOptimization&gt;true&lt;/SmartOptimization&gt;
+  &lt;DpsTime&gt;1&lt;/DpsTime&gt;
+  &lt;DrumsOfBattle&gt;false&lt;/DrumsOfBattle&gt;
+  &lt;AutomaticArmor&gt;false&lt;/AutomaticArmor&gt;
+  &lt;ForceIncrementalOptimizations&gt;false&lt;/ForceIncrementalOptimizations&gt;
+  &lt;IncrementalOptimizations&gt;true&lt;/IncrementalOptimizations&gt;
+  &lt;SnaredTime&gt;1&lt;/SnaredTime&gt;
+  &lt;WarlockSpellPower&gt;2800&lt;/WarlockSpellPower&gt;
+  &lt;ReconstructSequence&gt;false&lt;/ReconstructSequence&gt;
+  &lt;ComparisonSegmentCooldowns&gt;false&lt;/ComparisonSegmentCooldowns&gt;
+  &lt;DisplaySegmentCooldowns&gt;false&lt;/DisplaySegmentCooldowns&gt;
+  &lt;ComparisonIntegralMana&gt;false&lt;/ComparisonIntegralMana&gt;
+  &lt;DisplayIntegralMana&gt;false&lt;/DisplayIntegralMana&gt;
+  &lt;ComparisonSegmentMana&gt;false&lt;/ComparisonSegmentMana&gt;
+  &lt;DisplaySegmentMana&gt;false&lt;/DisplaySegmentMana&gt;
+  &lt;ComparisonAdvancedConstraintsLevel&gt;0&lt;/ComparisonAdvancedConstraintsLevel&gt;
+  &lt;DisplayAdvancedConstraintsLevel&gt;0&lt;/DisplayAdvancedConstraintsLevel&gt;
+  &lt;FixedSegmentDuration&gt;30&lt;/FixedSegmentDuration&gt;
+  &lt;VariableSegmentDuration&gt;false&lt;/VariableSegmentDuration&gt;
+  &lt;LowerBoundHint&gt;0&lt;/LowerBoundHint&gt;
+  &lt;EnableHastedEvocation&gt;false&lt;/EnableHastedEvocation&gt;
+  &lt;Enable2T10Evocation&gt;true&lt;/Enable2T10Evocation&gt;
+  &lt;AdvancedHasteProcs&gt;false&lt;/AdvancedHasteProcs&gt;
+  &lt;EncounterEnabled&gt;false&lt;/EncounterEnabled&gt;
+  &lt;Encounter&gt;
+    &lt;GlobalMultipliers /&gt;
+    &lt;TargetGroups /&gt;
+  &lt;/Encounter&gt;
+  &lt;MIPMethod&gt;BestBound&lt;/MIPMethod&gt;
+  &lt;Innervate&gt;0&lt;/Innervate&gt;
+  &lt;ManaTide&gt;0&lt;/ManaTide&gt;
+  &lt;Fragmentation&gt;0&lt;/Fragmentation&gt;
+  &lt;SurvivabilityRating&gt;0.0001&lt;/SurvivabilityRating&gt;
+  &lt;Aldor&gt;true&lt;/Aldor&gt;
+  &lt;PVP&gt;false&lt;/PVP&gt;
+  &lt;HeroismControl&gt;0&lt;/HeroismControl&gt;
+  &lt;AverageCooldowns&gt;false&lt;/AverageCooldowns&gt;
+  &lt;EvocationEnabled&gt;true&lt;/EvocationEnabled&gt;
+  &lt;ManaPotionEnabled&gt;true&lt;/ManaPotionEnabled&gt;
+  &lt;ManaGemEnabled&gt;true&lt;/ManaGemEnabled&gt;
+  &lt;MirrorImageEnabled&gt;true&lt;/MirrorImageEnabled&gt;
+  &lt;DisableCooldowns&gt;false&lt;/DisableCooldowns&gt;
+  &lt;MaxHeapLimit&gt;300&lt;/MaxHeapLimit&gt;
+  &lt;DrinkingTime&gt;300&lt;/DrinkingTime&gt;
+  &lt;TargetDamage&gt;0&lt;/TargetDamage&gt;
+  &lt;FarmingMode&gt;false&lt;/FarmingMode&gt;
+  &lt;FocusMagicTargetCritRate&gt;0.2&lt;/FocusMagicTargetCritRate&gt;
+  &lt;UnlimitedMana&gt;false&lt;/UnlimitedMana&gt;
+  &lt;AbsorptionPerSecond&gt;0&lt;/AbsorptionPerSecond&gt;
+  &lt;CustomSpellMixEnabled&gt;false&lt;/CustomSpellMixEnabled&gt;
+  &lt;GlobalRestarts&gt;0&lt;/GlobalRestarts&gt;
+  &lt;CustomSpellMixOnly&gt;false&lt;/CustomSpellMixOnly&gt;
+  &lt;MeleeDps&gt;0&lt;/MeleeDps&gt;
+  &lt;MeleeCrit&gt;0&lt;/MeleeCrit&gt;
+  &lt;MeleeDot&gt;0&lt;/MeleeDot&gt;
+  &lt;PhysicalDps&gt;0&lt;/PhysicalDps&gt;
+  &lt;PhysicalCrit&gt;0&lt;/PhysicalCrit&gt;
+  &lt;PhysicalDot&gt;0&lt;/PhysicalDot&gt;
+  &lt;FireDps&gt;0&lt;/FireDps&gt;
+  &lt;FireCrit&gt;0&lt;/FireCrit&gt;
+  &lt;FireDot&gt;0&lt;/FireDot&gt;
+  &lt;FrostDps&gt;0&lt;/FrostDps&gt;
+  &lt;FrostCrit&gt;0&lt;/FrostCrit&gt;
+  &lt;FrostDot&gt;0&lt;/FrostDot&gt;
+  &lt;ArcaneDps&gt;0&lt;/ArcaneDps&gt;
+  &lt;ArcaneCrit&gt;0&lt;/ArcaneCrit&gt;
+  &lt;ArcaneDot&gt;0&lt;/ArcaneDot&gt;
+  &lt;ShadowDps&gt;0&lt;/ShadowDps&gt;
+  &lt;ShadowCrit&gt;0&lt;/ShadowCrit&gt;
+  &lt;ShadowDot&gt;0&lt;/ShadowDot&gt;
+  &lt;NatureDps&gt;0&lt;/NatureDps&gt;
+  &lt;NatureCrit&gt;0&lt;/NatureCrit&gt;
+  &lt;NatureDot&gt;0&lt;/NatureDot&gt;
+  &lt;HolyDps&gt;0&lt;/HolyDps&gt;
+  &lt;HolyCrit&gt;0&lt;/HolyCrit&gt;
+  &lt;HolyDot&gt;0&lt;/HolyDot&gt;
+  &lt;BurstWindow&gt;5&lt;/BurstWindow&gt;
+  &lt;BurstImpacts&gt;5&lt;/BurstImpacts&gt;
+  &lt;ChanceToLiveScore&gt;0&lt;/ChanceToLiveScore&gt;
+  &lt;ChanceToLiveAttenuation&gt;0.1&lt;/ChanceToLiveAttenuation&gt;
+  &lt;EffectSpiritMultiplier&gt;1&lt;/EffectSpiritMultiplier&gt;
+  &lt;EffectCritBonus&gt;0&lt;/EffectCritBonus&gt;
+  &lt;EffectCritDamageBonus&gt;0&lt;/EffectCritDamageBonus&gt;
+  &lt;EffectDamageMultiplier&gt;1&lt;/EffectDamageMultiplier&gt;
+  &lt;EffectHasteMultiplier&gt;1&lt;/EffectHasteMultiplier&gt;
+  &lt;EffectCostMultiplier&gt;1&lt;/EffectCostMultiplier&gt;
+  &lt;EffectRegenMultiplier&gt;1&lt;/EffectRegenMultiplier&gt;
+  &lt;EffectDisableManaSources&gt;false&lt;/EffectDisableManaSources&gt;
+  &lt;EffectShadowSilenceFrequency&gt;0&lt;/EffectShadowSilenceFrequency&gt;
+  &lt;EffectShadowSilenceDuration&gt;0&lt;/EffectShadowSilenceDuration&gt;
+  &lt;EffectShadowManaDrainFrequency&gt;0&lt;/EffectShadowManaDrainFrequency&gt;
+  &lt;EffectShadowManaDrain&gt;0&lt;/EffectShadowManaDrain&gt;
+  &lt;EffectArcaneOtherBinary&gt;0&lt;/EffectArcaneOtherBinary&gt;
+  &lt;EffectFireOtherBinary&gt;0&lt;/EffectFireOtherBinary&gt;
+  &lt;EffectFrostOtherBinary&gt;0&lt;/EffectFrostOtherBinary&gt;
+  &lt;EffectShadowOtherBinary&gt;0&lt;/EffectShadowOtherBinary&gt;
+  &lt;EffectNatureOtherBinary&gt;0&lt;/EffectNatureOtherBinary&gt;
+  &lt;EffectHolyOtherBinary&gt;0&lt;/EffectHolyOtherBinary&gt;
+  &lt;EffectArcaneOther&gt;0&lt;/EffectArcaneOther&gt;
+  &lt;EffectFireOther&gt;0&lt;/EffectFireOther&gt;
+  &lt;EffectFrostOther&gt;0&lt;/EffectFrostOther&gt;
+  &lt;EffectShadowOther&gt;0&lt;/EffectShadowOther&gt;
+  &lt;EffectNatureOther&gt;0&lt;/EffectNatureOther&gt;
+  &lt;EffectHolyOther&gt;0&lt;/EffectHolyOther&gt;
+&lt;/CalculationOptionsMage&gt;</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Hunter</string>
+      </key>
+      <value>
+        <string>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;CalculationOptionsHunter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;_TimeSpentSub20&gt;72&lt;/_TimeSpentSub20&gt;
+  &lt;_TimeSpent35To20&gt;54&lt;/_TimeSpent35To20&gt;
+  &lt;_BossHPPerc&gt;1&lt;/_BossHPPerc&gt;
+  &lt;_CDCutoff&gt;0&lt;/_CDCutoff&gt;
+  &lt;_AspectUsage&gt;ViperToOOM&lt;/_AspectUsage&gt;
+  &lt;_UseBeastDuringBestialWrath&gt;true&lt;/_UseBeastDuringBestialWrath&gt;
+  &lt;_UseRotationTest&gt;true&lt;/_UseRotationTest&gt;
+  &lt;_RandomizeProcs&gt;false&lt;/_RandomizeProcs&gt;
+  &lt;_PriorityIndex1&gt;18&lt;/_PriorityIndex1&gt;
+  &lt;_PriorityIndex2&gt;19&lt;/_PriorityIndex2&gt;
+  &lt;_PriorityIndex3&gt;4&lt;/_PriorityIndex3&gt;
+  &lt;_PriorityIndex4&gt;9&lt;/_PriorityIndex4&gt;
+  &lt;_PriorityIndex5&gt;17&lt;/_PriorityIndex5&gt;
+  &lt;_PriorityIndex6&gt;1&lt;/_PriorityIndex6&gt;
+  &lt;_PriorityIndex7&gt;7&lt;/_PriorityIndex7&gt;
+  &lt;_PriorityIndex8&gt;8&lt;/_PriorityIndex8&gt;
+  &lt;_PriorityIndex9&gt;13&lt;/_PriorityIndex9&gt;
+  &lt;_PriorityIndex10&gt;0&lt;/_PriorityIndex10&gt;
+  &lt;_PetPriority1&gt;FuriousHowl&lt;/_PetPriority1&gt;
+  &lt;_PetPriority2&gt;Bite&lt;/_PetPriority2&gt;
+  &lt;_PetPriority3&gt;None&lt;/_PetPriority3&gt;
+  &lt;_PetPriority4&gt;None&lt;/_PetPriority4&gt;
+  &lt;_PetPriority5&gt;None&lt;/_PetPriority5&gt;
+  &lt;_PetPriority6&gt;None&lt;/_PetPriority6&gt;
+  &lt;_PetPriority7&gt;None&lt;/_PetPriority7&gt;
+  &lt;petActiveBuffs&gt;Strength of Earth Totem&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Enhancing Totems (Agility/Strength)&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Blessing of Might&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Improved Blessing of Might&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Sanctified Retribution&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Swift Retribution&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Commanding Shout&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Commanding Presence (Health)&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Leader of the Pack&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Improved Leader of the Pack&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Improved Icy Talons&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Power Word: Fortitude&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Improved Power Word: Fortitude&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Mark of the Wild&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Improved Mark of the Wild&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Blessing of Kings&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Heroism/Bloodlust&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Sunder Armor&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Faerie Fire&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Heart of the Crusader&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Spiced Mammoth Treats&lt;/petActiveBuffs&gt;
+  &lt;petActiveBuffs&gt;Unleashed Rage&lt;/petActiveBuffs&gt;
+  &lt;waitForCooldown&gt;0.8&lt;/waitForCooldown&gt;
+  &lt;interleaveLAL&gt;false&lt;/interleaveLAL&gt;
+  &lt;prioritiseArcAimedOverSteady&gt;true&lt;/prioritiseArcAimedOverSteady&gt;
+  &lt;debugShotRotation&gt;false&lt;/debugShotRotation&gt;
+  &lt;TargetLevel&gt;83&lt;/TargetLevel&gt;
+  &lt;TargetArmor&gt;10643&lt;/TargetArmor&gt;
+  &lt;Duration&gt;300&lt;/Duration&gt;
+  &lt;TimeSpentSub20&gt;72&lt;/TimeSpentSub20&gt;
+  &lt;TimeSpent35To20&gt;54&lt;/TimeSpent35To20&gt;
+  &lt;MultipleTargets&gt;false&lt;/MultipleTargets&gt;
+  &lt;MultipleTargetsPerc&gt;0&lt;/MultipleTargetsPerc&gt;
+  &lt;Lag&gt;150&lt;/Lag&gt;
+  &lt;React&gt;200&lt;/React&gt;
+  &lt;BossHPPerc&gt;1&lt;/BossHPPerc&gt;
+  &lt;CDCutoff&gt;0&lt;/CDCutoff&gt;
+  &lt;SelectedAspect&gt;Dragonhawk&lt;/SelectedAspect&gt;
+  &lt;AspectUsage&gt;ViperToOOM&lt;/AspectUsage&gt;
+  &lt;UseBeastDuringBestialWrath&gt;true&lt;/UseBeastDuringBestialWrath&gt;
+  &lt;UseRotationTest&gt;true&lt;/UseRotationTest&gt;
+  &lt;RandomizeProcs&gt;false&lt;/RandomizeProcs&gt;
+  &lt;PriorityIndex1&gt;18&lt;/PriorityIndex1&gt;
+  &lt;PriorityIndex2&gt;19&lt;/PriorityIndex2&gt;
+  &lt;PriorityIndex3&gt;4&lt;/PriorityIndex3&gt;
+  &lt;PriorityIndex4&gt;9&lt;/PriorityIndex4&gt;
+  &lt;PriorityIndex5&gt;17&lt;/PriorityIndex5&gt;
+  &lt;PriorityIndex6&gt;1&lt;/PriorityIndex6&gt;
+  &lt;PriorityIndex7&gt;7&lt;/PriorityIndex7&gt;
+  &lt;PriorityIndex8&gt;8&lt;/PriorityIndex8&gt;
+  &lt;PriorityIndex9&gt;13&lt;/PriorityIndex9&gt;
+  &lt;PriorityIndex10&gt;0&lt;/PriorityIndex10&gt;
+  &lt;PetLevel&gt;80&lt;/PetLevel&gt;
+  &lt;SelectedArmoryPet&gt;0&lt;/SelectedArmoryPet&gt;
+  &lt;PetHappinessLevel&gt;Happy&lt;/PetHappinessLevel&gt;
+  &lt;petTalents&gt;0100100203100000000000000010000330010&lt;/petTalents&gt;
+  &lt;PetFamily&gt;Wolf&lt;/PetFamily&gt;
+  &lt;PetPriority1&gt;FuriousHowl&lt;/PetPriority1&gt;
+  &lt;PetPriority2&gt;Bite&lt;/PetPriority2&gt;
+  &lt;PetPriority3&gt;None&lt;/PetPriority3&gt;
+  &lt;PetPriority4&gt;None&lt;/PetPriority4&gt;
+  &lt;PetPriority5&gt;None&lt;/PetPriority5&gt;
+  &lt;PetPriority6&gt;None&lt;/PetPriority6&gt;
+  &lt;PetPriority7&gt;None&lt;/PetPriority7&gt;
+  &lt;HideBadItems_Spl&gt;true&lt;/HideBadItems_Spl&gt;
+  &lt;HideBadItems_PvP&gt;true&lt;/HideBadItems_PvP&gt;
+  &lt;PTRMode&gt;false&lt;/PTRMode&gt;
+  &lt;SurvScale&gt;1&lt;/SurvScale&gt;
+  &lt;SE_UseDur&gt;true&lt;/SE_UseDur&gt;
+  &lt;StatsList&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+  &lt;/StatsList&gt;
+  &lt;StatsIncrement&gt;100&lt;/StatsIncrement&gt;
+  &lt;CalculationToGraph&gt;Overall Rating&lt;/CalculationToGraph&gt;
+  &lt;useKillCommand&gt;true&lt;/useKillCommand&gt;
+  &lt;gcdsToLayImmoTrap&gt;2&lt;/gcdsToLayImmoTrap&gt;
+  &lt;gcdsToLayExploTrap&gt;2&lt;/gcdsToLayExploTrap&gt;
+  &lt;gcdsToVolley&gt;4&lt;/gcdsToVolley&gt;
+  &lt;LALShotToUse&gt;ExplosiveShot&lt;/LALShotToUse&gt;
+  &lt;LALShotsReplaced&gt;2&lt;/LALShotsReplaced&gt;
+  &lt;LALProcChance&gt;2&lt;/LALProcChance&gt;
+&lt;/CalculationOptionsHunter&gt;</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Elemental</string>
+      </key>
+      <value>
+        <string>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;CalculationOptionsElemental xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;FightDuration&gt;300&lt;/FightDuration&gt;
+  &lt;BSRatio&gt;75&lt;/BSRatio&gt;
+  &lt;UseThunderstorm&gt;true&lt;/UseThunderstorm&gt;
+  &lt;RotationType&gt;0&lt;/RotationType&gt;
+  &lt;LatencyGcd&gt;0.15&lt;/LatencyGcd&gt;
+  &lt;LatencyCast&gt;0.075&lt;/LatencyCast&gt;
+  &lt;NumberOfTargets&gt;1&lt;/NumberOfTargets&gt;
+  &lt;UseFireNova&gt;true&lt;/UseFireNova&gt;
+  &lt;UseChainLightning&gt;true&lt;/UseChainLightning&gt;
+  &lt;UseDpsTotem&gt;false&lt;/UseDpsTotem&gt;
+  &lt;UseFireEle&gt;false&lt;/UseFireEle&gt;
+&lt;/CalculationOptionsElemental&gt;</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Healadin</string>
+      </key>
+      <value>
+        <string>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;CalculationOptionsHealadin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Length&gt;7&lt;/Length&gt;
+  &lt;Activity&gt;0.85&lt;/Activity&gt;
+  &lt;Replenishment&gt;0.9&lt;/Replenishment&gt;
+  &lt;DivinePlea&gt;2&lt;/DivinePlea&gt;
+  &lt;BoLUp&gt;1&lt;/BoLUp&gt;
+  &lt;HolyShock&gt;0.15&lt;/HolyShock&gt;
+  &lt;BurstScale&gt;0.4&lt;/BurstScale&gt;
+  &lt;GHL_Targets&gt;1&lt;/GHL_Targets&gt;
+  &lt;InfusionOfLight&gt;true&lt;/InfusionOfLight&gt;
+  &lt;IoLHolyLight&gt;0.9&lt;/IoLHolyLight&gt;
+  &lt;JotP&gt;true&lt;/JotP&gt;
+  &lt;Judgement&gt;true&lt;/Judgement&gt;
+  &lt;LoHSelf&gt;false&lt;/LoHSelf&gt;
+  &lt;SSUptime&gt;1&lt;/SSUptime&gt;
+  &lt;FoLOnTank&gt;0.25&lt;/FoLOnTank&gt;
+  &lt;SpiritIrrelevant&gt;true&lt;/SpiritIrrelevant&gt;
+  &lt;HitIrrelevant&gt;true&lt;/HitIrrelevant&gt;
+&lt;/CalculationOptionsHealadin&gt;</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Retribution</string>
+      </key>
+      <value>
+        <string>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;CalculationOptionsRetribution xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;FightLength&gt;5&lt;/FightLength&gt;
+  &lt;Mob&gt;Humanoid&lt;/Mob&gt;
+  &lt;Seal&gt;Vengeance&lt;/Seal&gt;
+  &lt;TargetLevel&gt;83&lt;/TargetLevel&gt;
+  &lt;TimeUnder20&gt;0.18&lt;/TimeUnder20&gt;
+  &lt;StackTrinketReset&gt;0&lt;/StackTrinketReset&gt;
+  &lt;Targets&gt;1&lt;/Targets&gt;
+  &lt;InFront&gt;0&lt;/InFront&gt;
+  &lt;ConsEff&gt;1&lt;/ConsEff&gt;
+  &lt;Bloodlust&gt;true&lt;/Bloodlust&gt;
+  &lt;HoREff&gt;0&lt;/HoREff&gt;
+  &lt;TargetSwitches&gt;0&lt;/TargetSwitches&gt;
+  &lt;SimulateRotation&gt;true&lt;/SimulateRotation&gt;
+  &lt;Rotations&gt;
+    &lt;ArrayOfAbility&gt;
+      &lt;Ability&gt;CrusaderStrike&lt;/Ability&gt;
+      &lt;Ability&gt;HammerOfWrath&lt;/Ability&gt;
+      &lt;Ability&gt;Judgement&lt;/Ability&gt;
+      &lt;Ability&gt;Consecration&lt;/Ability&gt;
+      &lt;Ability&gt;DivineStorm&lt;/Ability&gt;
+      &lt;Ability&gt;Exorcism&lt;/Ability&gt;
+    &lt;/ArrayOfAbility&gt;
+  &lt;/Rotations&gt;
+  &lt;Delay&gt;0.05&lt;/Delay&gt;
+  &lt;Wait&gt;0.05&lt;/Wait&gt;
+  &lt;JudgeCD&gt;7.1&lt;/JudgeCD&gt;
+  &lt;CSCD&gt;7.1&lt;/CSCD&gt;
+  &lt;DSCD&gt;10.5&lt;/DSCD&gt;
+  &lt;ConsCD&gt;10.5&lt;/ConsCD&gt;
+  &lt;ExoCD&gt;18&lt;/ExoCD&gt;
+  &lt;JudgeCD20&gt;7.1&lt;/JudgeCD20&gt;
+  &lt;CSCD20&gt;7.1&lt;/CSCD20&gt;
+  &lt;DSCD20&gt;12.5&lt;/DSCD20&gt;
+  &lt;ConsCD20&gt;12.5&lt;/ConsCD20&gt;
+  &lt;ExoCD20&gt;25&lt;/ExoCD20&gt;
+  &lt;HoWCD20&gt;6.4&lt;/HoWCD20&gt;
+  &lt;Experimental /&gt;
+&lt;/CalculationOptionsRetribution&gt;</string>
+      </value>
+    </item>
   </CalculationOptions>
-  <Head>46151.41285.40111.0.3817</Head>
-  <Neck>45517.40117.0.0.0</Neck>
-  <Shoulders>46149.40117.0.0.3808</Shoulders>
-  <Back>46032.40117.40142.0.3605</Back>
-  <Chest>46146.40117.42153.0.3832</Chest>
-  <Wrist>45611.40142.40117.0.3845</Wrist>
-  <Hands>46148.40143.42153.0.3604</Hands>
-  <Waist>46095.40117.40117.40117.0</Waist>
-  <Legs>45536.40142.45862.42702.3823</Legs>
-  <Feet>45599.40142.40117.0.3606</Feet>
-  <Finger1>45608.45862.0.0.0</Finger1>
-  <Finger2>46048.40111.0.0.0</Finger2>
-  <Trinket1>45931.0.0.0.0</Trinket1>
-  <Trinket2>42987.0.0.0.0</Trinket2>
-  <MainHand>45516.42142.45862.0.3789</MainHand>
-  <OffHand>45516.40118.40118.0.3789</OffHand>
-  <Ranged>45296.40117.0.0.0</Ranged>
-  <CustomGemmingTemplates />
-  <GemmingTemplateOverrides />
+  <Head>46156.41398.39996.0.3817</Head>
+  <Neck>46040.39996.0.0.0</Neck>
+  <Shoulders>46152.39996.0.0.3808</Shoulders>
+  <Back>45588.39996.0.0.3730</Back>
+  <Chest>46154.39996.39996.0.3832</Chest>
+  <Wrist>45663.39996.0.0.3845</Wrist>
+  <Hands>46155.39996.0.0.3604</Hands>
+  <Waist>46041.39996.40037.39996.0</Waist>
+  <Legs>45134.39996.39996.39996.3823</Legs>
+  <Feet>45599.39996.39996.0.3606</Feet>
+  <Finger1>45534.42702.0.0.0</Finger1>
+  <Finger2>45540.0.0.0.0</Finger2>
+  <Trinket1>42987.0.0.0.0</Trinket1>
+  <Trinket2>46038.0.0.0.0</Trinket2>
+  <MainHand>45533.39996.39996.0.3789</MainHand>
+  <Ranged>37574.0.0.0.0</Ranged>
+  <Projectile>41165.0.0.0.0</Projectile>
+  <CustomGemmingTemplates>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>39997</RedId>
+      <YellowId>42702</YellowId>
+      <BlueId>42702</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>42702</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>39997</RedId>
+      <YellowId>39997</YellowId>
+      <BlueId>39997</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>39997</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>false</Enabled>
+      <Group>Custom</Group>
+      <RedId>42144</RedId>
+      <YellowId>42144</YellowId>
+      <BlueId>42144</BlueId>
+      <MetaId>0</MetaId>
+      <PrismaticId>42144</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>40003</RedId>
+      <YellowId>40003</YellowId>
+      <BlueId>40003</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>42702</PrismaticId>
+    </GemmingTemplate>
+  </CustomGemmingTemplates>
+  <GemmingTemplateOverrides>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40112</RedId>
+      <YellowId>40112</YellowId>
+      <BlueId>40112</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40112</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40114</RedId>
+      <YellowId>40114</YellowId>
+      <BlueId>40114</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40114</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40117</RedId>
+      <YellowId>40117</YellowId>
+      <BlueId>40117</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40124</RedId>
+      <YellowId>40124</YellowId>
+      <BlueId>40124</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40124</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40128</RedId>
+      <YellowId>40128</YellowId>
+      <BlueId>40128</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40128</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40121</RedId>
+      <YellowId>40121</YellowId>
+      <BlueId>40121</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40121</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40125</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40125</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40125</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40112</RedId>
+      <YellowId>40147</YellowId>
+      <BlueId>40130</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40112</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40114</RedId>
+      <YellowId>40156</YellowId>
+      <BlueId>40136</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40114</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40117</RedId>
+      <YellowId>40147</YellowId>
+      <BlueId>40140</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40147</RedId>
+      <YellowId>40124</YellowId>
+      <BlueId>40165</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40124</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40150</RedId>
+      <YellowId>40128</YellowId>
+      <BlueId>40169</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40128</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40148</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40166</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40125</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40112</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40166</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40148</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40114</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40166</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40157</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40117</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40166</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40147</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40166</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40124</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40150</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40166</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40128</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40131</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40121</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40121</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40112</RedId>
+      <YellowId>40112</YellowId>
+      <BlueId>40112</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40112</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40114</RedId>
+      <YellowId>40114</YellowId>
+      <BlueId>40114</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40114</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40117</RedId>
+      <YellowId>40117</YellowId>
+      <BlueId>40117</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40124</RedId>
+      <YellowId>40124</YellowId>
+      <BlueId>40124</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40124</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40128</RedId>
+      <YellowId>40128</YellowId>
+      <BlueId>40128</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40128</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40121</RedId>
+      <YellowId>40121</YellowId>
+      <BlueId>40121</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40121</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40125</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40125</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40125</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40112</RedId>
+      <YellowId>40147</YellowId>
+      <BlueId>40130</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40112</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40114</RedId>
+      <YellowId>40156</YellowId>
+      <BlueId>40136</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40114</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40117</RedId>
+      <YellowId>40147</YellowId>
+      <BlueId>40140</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40147</RedId>
+      <YellowId>40124</YellowId>
+      <BlueId>40165</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40124</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40150</RedId>
+      <YellowId>40128</YellowId>
+      <BlueId>40169</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40128</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40148</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40166</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40125</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40112</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40166</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40148</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40114</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40166</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40157</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40117</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40166</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40147</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40166</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40124</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40150</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40166</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40128</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Hunter</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40131</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40121</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40121</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>39998</RedId>
+      <YellowId>39998</YellowId>
+      <BlueId>39998</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>39998</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>40014</RedId>
+      <YellowId>40014</YellowId>
+      <BlueId>40014</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40014</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>40049</RedId>
+      <YellowId>40049</YellowId>
+      <BlueId>40049</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40049</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>40094</RedId>
+      <YellowId>40094</YellowId>
+      <BlueId>40094</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40094</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>39998</RedId>
+      <YellowId>40051</YellowId>
+      <BlueId>40027</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>39998</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>40049</RedId>
+      <YellowId>40014</YellowId>
+      <BlueId>40027</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40014</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>40049</RedId>
+      <YellowId>40014</YellowId>
+      <BlueId>40100</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40014</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>40049</RedId>
+      <YellowId>40014</YellowId>
+      <BlueId>40094</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40049</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>40027</RedId>
+      <YellowId>40094</YellowId>
+      <BlueId>40094</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40027</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>40027</RedId>
+      <YellowId>40094</YellowId>
+      <BlueId>40094</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40094</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>39998</RedId>
+      <YellowId>40094</YellowId>
+      <BlueId>40027</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40027</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>39998</RedId>
+      <YellowId>40094</YellowId>
+      <BlueId>40027</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40094</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40113</RedId>
+      <YellowId>40113</YellowId>
+      <BlueId>40113</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40113</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40125</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40125</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40125</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40153</RedId>
+      <YellowId>40153</YellowId>
+      <BlueId>40153</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40153</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40175</RedId>
+      <YellowId>40175</YellowId>
+      <BlueId>40175</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40175</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40113</RedId>
+      <YellowId>40155</YellowId>
+      <BlueId>40134</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40113</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40153</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40134</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40125</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40153</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40177</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40125</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40153</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40175</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40153</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40134</RedId>
+      <YellowId>40175</YellowId>
+      <BlueId>40175</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40134</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40134</RedId>
+      <YellowId>40175</YellowId>
+      <BlueId>40175</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40175</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40113</RedId>
+      <YellowId>40175</YellowId>
+      <BlueId>40134</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40134</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Elemental</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40113</RedId>
+      <YellowId>40175</YellowId>
+      <BlueId>40134</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40175</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>39996</RedId>
+      <YellowId>39996</YellowId>
+      <BlueId>39996</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>39996</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>39996</RedId>
+      <YellowId>40037</YellowId>
+      <BlueId>42702</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>39996</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>39996</RedId>
+      <YellowId>42702</YellowId>
+      <BlueId>40022</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>39996</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>39996</RedId>
+      <YellowId>40037</YellowId>
+      <BlueId>40022</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>39996</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>40038</RedId>
+      <YellowId>40014</YellowId>
+      <BlueId>40088</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40014</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>true</Enabled>
+      <Group>Rare</Group>
+      <RedId>40003</RedId>
+      <YellowId>40058</YellowId>
+      <BlueId>40034</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40003</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40111</RedId>
+      <YellowId>40111</YellowId>
+      <BlueId>40111</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40111</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>49110</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40111</RedId>
+      <YellowId>49110</YellowId>
+      <BlueId>40129</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40111</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>40129</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40143</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40166</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40125</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic</Group>
+      <RedId>40118</RedId>
+      <YellowId>40162</YellowId>
+      <BlueId>40141</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40118</PrismaticId>
+    </GemmingTemplate>
+  </GemmingTemplateOverrides>
   <ItemFilterEnabledOverride>
     <ItemFilterEnabledOverride>
       <Name>Dungeons</Name>
-      <Enabled>true</Enabled>
+      <Enabled>false</Enabled>
       <SubFilterOverride>
         <ItemFilterEnabledOverride>
           <Name>Ahn'kahet</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Azjol-Nerub</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>The Culling of Stratholme</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Drak'Tharon Keep</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Forge of Souls</Name>
@@ -207,15 +1351,15 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Gundrak</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Halls of Lightning</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Halls of Stone</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Halls of Reflection</Name>
@@ -223,7 +1367,7 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Nexus</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Pit of Saron</Name>
@@ -231,7 +1375,7 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>The Oculus</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Trial of the Champion</Name>
@@ -239,41 +1383,41 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Utgarde Keep</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Utgarde Pinnacle</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Violet Hold</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Other</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
       </SubFilterOverride>
     </ItemFilterEnabledOverride>
     <ItemFilterEnabledOverride>
       <Name>Dungeons (Heroic)</Name>
-      <Enabled>true</Enabled>
+      <Enabled>false</Enabled>
       <SubFilterOverride>
         <ItemFilterEnabledOverride>
           <Name>Ahn'kahet</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Azjol-Nerub</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>The Culling of Stratholme</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Drak'Tharon Keep</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Forge of Souls</Name>
@@ -281,15 +1425,15 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Gundrak</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Halls of Lightning</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Halls of Stone</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Halls of Reflection</Name>
@@ -297,7 +1441,7 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Nexus</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Pit of Saron</Name>
@@ -305,7 +1449,7 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>The Oculus</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Trial of the Champion</Name>
@@ -313,19 +1457,19 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Utgarde Keep</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Utgarde Pinnacle</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Violet Hold</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Other</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
       </SubFilterOverride>
     </ItemFilterEnabledOverride>
@@ -335,143 +1479,143 @@
       <SubFilterOverride>
         <ItemFilterEnabledOverride>
           <Name>10 Man Raids</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
           <SubFilterOverride>
             <ItemFilterEnabledOverride>
               <Name>Naxxramas</Name>
-              <Enabled>true</Enabled>
+              <Enabled>false</Enabled>
               <SubFilterOverride>
                 <ItemFilterEnabledOverride>
                   <Name>Construct Quarter</Name>
-                  <Enabled>true</Enabled>
+                  <Enabled>false</Enabled>
                   <SubFilterOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Patchwerk</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Grobbulus</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Gluth</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Thaddius</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Other</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                   </SubFilterOverride>
                 </ItemFilterEnabledOverride>
                 <ItemFilterEnabledOverride>
                   <Name>Plague Quarter</Name>
-                  <Enabled>true</Enabled>
+                  <Enabled>false</Enabled>
                   <SubFilterOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Noth the Plaguebringer</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Heigan the Unclean</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Loatheb</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Other</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                   </SubFilterOverride>
                 </ItemFilterEnabledOverride>
                 <ItemFilterEnabledOverride>
                   <Name>Spider Quarter</Name>
-                  <Enabled>true</Enabled>
+                  <Enabled>false</Enabled>
                   <SubFilterOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Anub'Rekhan</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Grand Widow Faerlina</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Maexxna</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Other</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                   </SubFilterOverride>
                 </ItemFilterEnabledOverride>
                 <ItemFilterEnabledOverride>
                   <Name>Military Quarter</Name>
-                  <Enabled>true</Enabled>
+                  <Enabled>false</Enabled>
                   <SubFilterOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Instructor Razuvious</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Gothik the Harvester</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                     <ItemFilterEnabledOverride>
                       <Name>The Four Horsemen</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Other</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                   </SubFilterOverride>
                 </ItemFilterEnabledOverride>
                 <ItemFilterEnabledOverride>
                   <Name>Frostwyrm Lair</Name>
-                  <Enabled>true</Enabled>
+                  <Enabled>false</Enabled>
                   <SubFilterOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Sapphiron</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Kel'Thuzad</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                     <ItemFilterEnabledOverride>
                       <Name>Other</Name>
-                      <Enabled>true</Enabled>
+                      <Enabled>false</Enabled>
                     </ItemFilterEnabledOverride>
                   </SubFilterOverride>
                 </ItemFilterEnabledOverride>
                 <ItemFilterEnabledOverride>
                   <Name>Trash Drops</Name>
-                  <Enabled>true</Enabled>
+                  <Enabled>false</Enabled>
                 </ItemFilterEnabledOverride>
                 <ItemFilterEnabledOverride>
                   <Name>Other</Name>
-                  <Enabled>true</Enabled>
+                  <Enabled>false</Enabled>
                 </ItemFilterEnabledOverride>
               </SubFilterOverride>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Eye of Eternity</Name>
-              <Enabled>true</Enabled>
+              <Enabled>false</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Obsidian Sanctum</Name>
-              <Enabled>true</Enabled>
+              <Enabled>false</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Other</Name>
-              <Enabled>true</Enabled>
+              <Enabled>false</Enabled>
             </ItemFilterEnabledOverride>
           </SubFilterOverride>
         </ItemFilterEnabledOverride>
@@ -1787,7 +2931,7 @@
     </ItemFilterEnabledOverride>
     <ItemFilterEnabledOverride>
       <Name>Quest Rewards</Name>
-      <Enabled>false</Enabled>
+      <Enabled>true</Enabled>
     </ItemFilterEnabledOverride>
     <ItemFilterEnabledOverride>
       <Name>World Drop</Name>
@@ -1811,35 +2955,35 @@
     </ItemFilterEnabledOverride>
     <ItemFilterEnabledOverride>
       <Name>Disable Gems</Name>
-      <Enabled>true</Enabled>
+      <Enabled>false</Enabled>
       <SubFilterOverride>
         <ItemFilterEnabledOverride>
           <Name>Disable Jewelcrafter BoP</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Disable Crafted (Non-BoP)</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Disable PvP</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Disable World Drop</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Disable Quest Rewards</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Disable Unknown/Not found on armory</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Other</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
       </SubFilterOverride>
     </ItemFilterEnabledOverride>
@@ -2005,12 +3149,12 @@
     <Filter />
     <BossName />
   </Boss>
-  <WarriorTalents>3220030023300000000000000000000325023000505310053120501351000000000000000000000000000.0000100001000000000000000010011001</WarriorTalents>
-  <PaladinTalents>000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000000000000000000</PaladinTalents>
-  <HunterTalents>000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000000000000000000000000000000</HunterTalents>
+  <WarriorTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000000000000000000</WarriorTalents>
+  <PaladinTalents>050501000000000000000000000500000000000000000000000005232051203331302133231331.0000100000000000001000001000001101</PaladinTalents>
+  <HunterTalents>502000000000000000000000000253051012300132331052312515000032000000000000000000000.000000001000000000010100000000000</HunterTalents>
   <RogueTalents>00000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000000000000000000</RogueTalents>
   <PriestTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000000000000000000000000000000</PriestTalents>
-  <ShamanTalents>00000000000000000000000000000000000000000000000000000000000000000000000000000000.00000000000000000000000000000</ShamanTalents>
+  <ShamanTalents>55300015032133513223013510050500310000000000000000000000000000000000000000000000.01000000000000000000000000111</ShamanTalents>
   <MageTalents>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000</MageTalents>
   <WarlockTalents>000000000000000000000000000000000000000000000000000000000000000000000000000000000.00000000000000000</WarlockTalents>
   <DruidTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000000000</DruidTalents>
@@ -2019,6 +3163,6 @@
   <WaistBlacksmithingSocketEnabled>true</WaistBlacksmithingSocketEnabled>
   <HandsBlacksmithingSocketEnabled>false</HandsBlacksmithingSocketEnabled>
   <WristBlacksmithingSocketEnabled>false</WristBlacksmithingSocketEnabled>
-  <PrimaryProfession>Engineering</PrimaryProfession>
-  <SecondaryProfession>Jewelcrafting</SecondaryProfession>
+  <PrimaryProfession>Tailoring</PrimaryProfession>
+  <SecondaryProfession>Engineering</SecondaryProfession>
 </Character>
