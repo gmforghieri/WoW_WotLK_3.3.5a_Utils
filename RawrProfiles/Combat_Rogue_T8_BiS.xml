@@ -247,6 +247,16 @@
       <MetaId>41395</MetaId>
       <PrismaticId>39997</PrismaticId>
     </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Rogue</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>40003</RedId>
+      <YellowId>40003</YellowId>
+      <BlueId>40003</BlueId>
+      <MetaId>0</MetaId>
+      <PrismaticId>0</PrismaticId>
+    </GemmingTemplate>
   </CustomGemmingTemplates>
   <GemmingTemplateOverrides>
     <GemmingTemplate>

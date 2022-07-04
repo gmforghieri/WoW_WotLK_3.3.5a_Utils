@@ -202,14 +202,14 @@
   <Head>46125.41398.39999.0.3817</Head>
   <Neck>45517.39999.0.0.0</Neck>
   <Shoulders>45245.39999.39999.0.3808</Shoulders>
-  <Back>45461.40053.0.0.3605</Back>
+  <Back>45461.39999.0.0.3605</Back>
   <Chest>45473.36766.36766.36766.3832</Chest>
   <Wrist>45611.39999.0.0.3845</Wrist>
   <Hands>46043.39999.39999.0.3604</Hands>
   <Waist>46095.39999.39999.39999.0</Waist>
-  <Legs>46126.40003.40003.0.3823</Legs>
+  <Legs>46126.39999.40058.0.3823</Legs>
   <Feet>45564.42702.39999.0.3606</Feet>
-  <Finger1>45456.39999.0.0.0</Finger1>
+  <Finger1>45456.40003.0.0.0</Finger1>
   <Finger2>45525.0.0.0.0</Finger2>
   <Trinket1>45609.0.0.0.0</Trinket1>
   <Trinket2>46038.0.0.0.0</Trinket2>
@@ -257,248 +257,48 @@
       <MetaId>0</MetaId>
       <PrismaticId>40003</PrismaticId>
     </GemmingTemplate>
-  </CustomGemmingTemplates>
-  <GemmingTemplateOverrides>
     <GemmingTemplate>
       <Model>Rogue</Model>
       <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>40002</RedId>
-      <YellowId>40002</YellowId>
-      <BlueId>40002</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>40002</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>40002</RedId>
-      <YellowId>40017</YellowId>
-      <BlueId>40033</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>40002</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>40002</RedId>
-      <YellowId>40017</YellowId>
-      <BlueId>40091</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>40002</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
+      <Group>Custom</Group>
       <RedId>39997</RedId>
       <YellowId>39997</YellowId>
       <BlueId>39997</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>39997</PrismaticId>
+      <MetaId>0</MetaId>
+      <PrismaticId>0</PrismaticId>
     </GemmingTemplate>
     <GemmingTemplate>
       <Model>Rogue</Model>
       <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39997</RedId>
-      <YellowId>40043</YellowId>
-      <BlueId>40023</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>39997</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39997</RedId>
-      <YellowId>40017</YellowId>
-      <BlueId>40091</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>39997</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39999</RedId>
-      <YellowId>39999</YellowId>
-      <BlueId>39999</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>39999</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39999</RedId>
-      <YellowId>40052</YellowId>
-      <BlueId>40029</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>39999</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39999</RedId>
-      <YellowId>40017</YellowId>
-      <BlueId>40091</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>39999</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>40003</RedId>
-      <YellowId>40003</YellowId>
-      <BlueId>40003</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>40003</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>40002</RedId>
-      <YellowId>40002</YellowId>
-      <BlueId>49110</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>40002</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>40002</RedId>
-      <YellowId>40017</YellowId>
-      <BlueId>49110</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>40002</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>40002</RedId>
-      <YellowId>40017</YellowId>
-      <BlueId>49110</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>40002</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39997</RedId>
-      <YellowId>39997</YellowId>
-      <BlueId>49110</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>39997</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39997</RedId>
-      <YellowId>40043</YellowId>
-      <BlueId>49110</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>39997</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39997</RedId>
-      <YellowId>40017</YellowId>
-      <BlueId>49110</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>39997</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39999</RedId>
-      <YellowId>39999</YellowId>
-      <BlueId>49110</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>39999</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39999</RedId>
-      <YellowId>40052</YellowId>
-      <BlueId>49110</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>39999</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39999</RedId>
-      <YellowId>40017</YellowId>
-      <BlueId>49110</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>39999</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>40003</RedId>
-      <YellowId>40003</YellowId>
-      <BlueId>49110</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>40003</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39997</RedId>
+      <Group>Custom</Group>
+      <RedId>40044</RedId>
       <YellowId>40044</YellowId>
-      <BlueId>40023</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>39997</PrismaticId>
+      <BlueId>40044</BlueId>
+      <MetaId>0</MetaId>
+      <PrismaticId>0</PrismaticId>
     </GemmingTemplate>
     <GemmingTemplate>
       <Model>Rogue</Model>
       <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39999</RedId>
+      <Group>Custom</Group>
+      <RedId>40053</RedId>
       <YellowId>40053</YellowId>
-      <BlueId>40029</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>39999</PrismaticId>
+      <BlueId>40053</BlueId>
+      <MetaId>0</MetaId>
+      <PrismaticId>0</PrismaticId>
     </GemmingTemplate>
     <GemmingTemplate>
       <Model>Rogue</Model>
       <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>40003</RedId>
-      <YellowId>40058</YellowId>
-      <BlueId>40034</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>40003</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Rogue</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
+      <Group>Custom</Group>
       <RedId>40058</RedId>
-      <YellowId>40014</YellowId>
-      <BlueId>40088</BlueId>
-      <MetaId>41398</MetaId>
-      <PrismaticId>40014</PrismaticId>
+      <YellowId>40058</YellowId>
+      <BlueId>40058</BlueId>
+      <MetaId>0</MetaId>
+      <PrismaticId>0</PrismaticId>
     </GemmingTemplate>
+  </CustomGemmingTemplates>
+  <GemmingTemplateOverrides>
     <GemmingTemplate>
       <Model>Rogue</Model>
       <Enabled>false</Enabled>
