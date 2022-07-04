@@ -35,7 +35,6 @@
   <ActiveBuffs>Potion of Speed (Double Pot Trick)</ActiveBuffs>
   <ActiveBuffs>Fish Feast</ActiveBuffs>
   <ActiveBuffs>Terrorblade Battlegear 2 Piece Bonus</ActiveBuffs>
-  <ActiveBuffs>Terrorblade Battlegear 4 Piece Bonus</ActiveBuffs>
   <CurrentModel>Rogue</CurrentModel>
   <EnforceMetagemRequirements>false</EnforceMetagemRequirements>
   <CalculationOptions>
@@ -202,16 +201,16 @@
   </CalculationOptions>
   <Head>46125.41398.39997.0.3817</Head>
   <Neck>45517.39997.0.0.0</Neck>
-  <Shoulders>46127.39997.0.0.3808</Shoulders>
+  <Shoulders>45245.39997.39997.0.3808</Shoulders>
   <Back>45461.39997.0.0.3605</Back>
-  <Chest>46123.39997.39997.0.3832</Chest>
-  <Wrist>45869.39997.0.0.3845</Wrist>
+  <Chest>45473.39997.39997.39997.3832</Chest>
+  <Wrist>45611.39997.0.0.3845</Wrist>
   <Hands>46124.39997.0.0.3604</Hands>
   <Waist>46095.42143.42143.42143.0</Waist>
   <Legs>45536.39997.39997.39997.3823</Legs>
   <Feet>45564.39997.39997.0.3606</Feet>
-  <Finger1>45608.42702.0.0.0</Finger1>
-  <Finger2>46048.39997.0.0.0</Finger2>
+  <Finger1>45608.39997.0.0.0</Finger1>
+  <Finger2>46048.42702.0.0.0</Finger2>
   <Trinket1>45609.0.0.0.0</Trinket1>
   <Trinket2>46038.0.0.0.0</Trinket2>
   <MainHand>45132.39997.0.0.3789</MainHand>
