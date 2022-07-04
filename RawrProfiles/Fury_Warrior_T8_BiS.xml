@@ -161,45 +161,227 @@
       </value>
     </item>
   </CalculationOptions>
-  <Head>46151.41285.40111.0.3817</Head>
-  <Neck>45517.40117.0.0.0</Neck>
-  <Shoulders>46149.40117.0.0.3808</Shoulders>
-  <Back>46032.40117.40142.0.3605</Back>
-  <Chest>46146.40117.42153.0.3832</Chest>
-  <Wrist>45611.40142.40117.0.3845</Wrist>
-  <Hands>46148.40143.42153.0.3604</Hands>
-  <Waist>46095.40117.40117.40117.0</Waist>
-  <Legs>45536.40142.45862.42702.3823</Legs>
-  <Feet>45599.40142.40117.0.3606</Feet>
-  <Finger1>45608.45862.0.0.0</Finger1>
-  <Finger2>46048.40111.0.0.0</Finger2>
+  <Head>46151.41398.40003.0.3817</Head>
+  <Neck>45517.40002.0.0.0</Neck>
+  <Shoulders>46149.40003.0.0.3808</Shoulders>
+  <Back>46032.40002.40038.0.3605</Back>
+  <Chest>46146.40002.40002.0.3832</Chest>
+  <Wrist>45611.40003.0.0.3845</Wrist>
+  <Hands>45430.40058.0.0.3604</Hands>
+  <Waist>46095.40002.40002.40002.0</Waist>
+  <Legs>45536.42153.42153.42153.3823</Legs>
+  <Feet>45599.39996.39996.0.3606</Feet>
+  <Finger1>45608.42702.0.0.0</Finger1>
+  <Finger2>46048.40002.0.0.0</Finger2>
   <Trinket1>45931.0.0.0.0</Trinket1>
   <Trinket2>42987.0.0.0.0</Trinket2>
-  <MainHand>45516.42142.45862.0.3789</MainHand>
-  <OffHand>45516.40118.40118.0.3789</OffHand>
-  <Ranged>45296.40117.0.0.0</Ranged>
-  <CustomGemmingTemplates />
-  <GemmingTemplateOverrides />
+  <MainHand>45516.39996.39996.0.3789</MainHand>
+  <OffHand>45516.40002.40002.0.3789</OffHand>
+  <Ranged>45296.39996.0.0.0</Ranged>
+  <CustomGemmingTemplates>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>42702</RedId>
+      <YellowId>42702</YellowId>
+      <BlueId>42702</BlueId>
+      <MetaId>0</MetaId>
+      <PrismaticId>42702</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>40003</RedId>
+      <YellowId>40003</YellowId>
+      <BlueId>39996</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40003</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>39996</RedId>
+      <YellowId>39996</YellowId>
+      <BlueId>39996</BlueId>
+      <MetaId>0</MetaId>
+      <PrismaticId>39996</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>40002</RedId>
+      <YellowId>40038</YellowId>
+      <BlueId>0</BlueId>
+      <MetaId>0</MetaId>
+      <PrismaticId>0</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>40002</RedId>
+      <YellowId>40002</YellowId>
+      <BlueId>40002</BlueId>
+      <MetaId>0</MetaId>
+      <PrismaticId>40002</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>0</RedId>
+      <YellowId>0</YellowId>
+      <BlueId>0</BlueId>
+      <MetaId>0</MetaId>
+      <PrismaticId>0</PrismaticId>
+    </GemmingTemplate>
+  </CustomGemmingTemplates>
+  <GemmingTemplateOverrides>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic Strength</Group>
+      <RedId>40111</RedId>
+      <YellowId>40111</YellowId>
+      <BlueId>40111</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic Strength</Group>
+      <RedId>40111</RedId>
+      <YellowId>40111</YellowId>
+      <BlueId>40111</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic Strength</Group>
+      <RedId>40111</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>40129</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic Strength</Group>
+      <RedId>40111</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>40129</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic Strength</Group>
+      <RedId>40111</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>49110</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic Strength</Group>
+      <RedId>40111</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>49110</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic ArPen</Group>
+      <RedId>40117</RedId>
+      <YellowId>40117</YellowId>
+      <BlueId>40117</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic ArPen</Group>
+      <RedId>40117</RedId>
+      <YellowId>40117</YellowId>
+      <BlueId>40117</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic ArPen</Group>
+      <RedId>40117</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>40140</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic ArPen</Group>
+      <RedId>40117</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>40140</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic ArPen</Group>
+      <RedId>40117</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>49110</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic ArPen</Group>
+      <RedId>40117</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>49110</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+  </GemmingTemplateOverrides>
   <ItemFilterEnabledOverride>
     <ItemFilterEnabledOverride>
       <Name>Dungeons</Name>
-      <Enabled>true</Enabled>
+      <Enabled>false</Enabled>
       <SubFilterOverride>
         <ItemFilterEnabledOverride>
           <Name>Ahn'kahet</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Azjol-Nerub</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>The Culling of Stratholme</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Drak'Tharon Keep</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Forge of Souls</Name>
@@ -207,15 +389,15 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Gundrak</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Halls of Lightning</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Halls of Stone</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Halls of Reflection</Name>
@@ -223,7 +405,7 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Nexus</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Pit of Saron</Name>
@@ -231,7 +413,7 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>The Oculus</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Trial of the Champion</Name>
@@ -239,41 +421,41 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Utgarde Keep</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Utgarde Pinnacle</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Violet Hold</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Other</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
       </SubFilterOverride>
     </ItemFilterEnabledOverride>
     <ItemFilterEnabledOverride>
       <Name>Dungeons (Heroic)</Name>
-      <Enabled>true</Enabled>
+      <Enabled>false</Enabled>
       <SubFilterOverride>
         <ItemFilterEnabledOverride>
           <Name>Ahn'kahet</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Azjol-Nerub</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>The Culling of Stratholme</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Drak'Tharon Keep</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Forge of Souls</Name>
@@ -281,15 +463,15 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Gundrak</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Halls of Lightning</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Halls of Stone</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Halls of Reflection</Name>
@@ -297,7 +479,7 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Nexus</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Pit of Saron</Name>
@@ -305,7 +487,7 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>The Oculus</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Trial of the Champion</Name>
@@ -313,19 +495,19 @@
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Utgarde Keep</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Utgarde Pinnacle</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Violet Hold</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Other</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
       </SubFilterOverride>
     </ItemFilterEnabledOverride>
@@ -1811,35 +1993,35 @@
     </ItemFilterEnabledOverride>
     <ItemFilterEnabledOverride>
       <Name>Disable Gems</Name>
-      <Enabled>true</Enabled>
+      <Enabled>false</Enabled>
       <SubFilterOverride>
         <ItemFilterEnabledOverride>
           <Name>Disable Jewelcrafter BoP</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Disable Crafted (Non-BoP)</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Disable PvP</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Disable World Drop</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Disable Quest Rewards</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Disable Unknown/Not found on armory</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Other</Name>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
         </ItemFilterEnabledOverride>
       </SubFilterOverride>
     </ItemFilterEnabledOverride>
