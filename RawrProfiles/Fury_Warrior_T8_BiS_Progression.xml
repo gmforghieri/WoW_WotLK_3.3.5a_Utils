@@ -1,0 +1,2201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Region>US</Region>
+  <Race>Orc</Race>
+  <Class>Warrior</Class>
+  <ActiveBuffs>Strength of Earth Totem</ActiveBuffs>
+  <ActiveBuffs>Enhancing Totems (Agility/Strength)</ActiveBuffs>
+  <ActiveBuffs>Stoneskin Totem</ActiveBuffs>
+  <ActiveBuffs>Improved Stoneskin Totem (Armor)</ActiveBuffs>
+  <ActiveBuffs>Devotion Aura</ActiveBuffs>
+  <ActiveBuffs>Improved Devotion Aura (Armor)</ActiveBuffs>
+  <ActiveBuffs>Blessing of Might</ActiveBuffs>
+  <ActiveBuffs>Improved Blessing of Might</ActiveBuffs>
+  <ActiveBuffs>Unleashed Rage</ActiveBuffs>
+  <ActiveBuffs>Ferocious Inspiration</ActiveBuffs>
+  <ActiveBuffs>Blessing of Sanctuary</ActiveBuffs>
+  <ActiveBuffs>Blessing of Sanctuary (Str/Sta Bonus)</ActiveBuffs>
+  <ActiveBuffs>Swift Retribution</ActiveBuffs>
+  <ActiveBuffs>Commanding Shout</ActiveBuffs>
+  <ActiveBuffs>Commanding Presence (Health)</ActiveBuffs>
+  <ActiveBuffs>Improved Leader of the Pack</ActiveBuffs>
+  <ActiveBuffs>Improved Icy Talons</ActiveBuffs>
+  <ActiveBuffs>Power Word: Fortitude</ActiveBuffs>
+  <ActiveBuffs>Improved Power Word: Fortitude</ActiveBuffs>
+  <ActiveBuffs>Mark of the Wild</ActiveBuffs>
+  <ActiveBuffs>Improved Mark of the Wild</ActiveBuffs>
+  <ActiveBuffs>Blessing of Kings</ActiveBuffs>
+  <ActiveBuffs>Heroism/Bloodlust</ActiveBuffs>
+  <ActiveBuffs>Sunder Armor</ActiveBuffs>
+  <ActiveBuffs>Faerie Fire</ActiveBuffs>
+  <ActiveBuffs>Demoralizing Shout</ActiveBuffs>
+  <ActiveBuffs>Improved Demoralizing Shout</ActiveBuffs>
+  <ActiveBuffs>Trauma</ActiveBuffs>
+  <ActiveBuffs>Heart of the Crusader</ActiveBuffs>
+  <ActiveBuffs>Blood Frenzy</ActiveBuffs>
+  <ActiveBuffs>Curse of the Elements</ActiveBuffs>
+  <ActiveBuffs>Improved Faerie Fire</ActiveBuffs>
+  <ActiveBuffs>Judgements of the Just</ActiveBuffs>
+  <ActiveBuffs>Flask of Endless Rage</ActiveBuffs>
+  <ActiveBuffs>Indestructible Potion</ActiveBuffs>
+  <ActiveBuffs>Indestructible Potion (Double Pot Trick)</ActiveBuffs>
+  <ActiveBuffs>Strength Food</ActiveBuffs>
+  <ActiveBuffs>Siegebreaker Battlegear (T8) 2 Piece Bonus</ActiveBuffs>
+  <ActiveBuffs>Siegebreaker Battlegear (T8) 4 Piece Bonus</ActiveBuffs>
+  <ActiveBuffs>Leader of the Pack</ActiveBuffs>
+  <CurrentModel>DPSWarr</CurrentModel>
+  <EnforceMetagemRequirements>false</EnforceMetagemRequirements>
+  <CalculationOptions>
+    <item>
+      <key>
+        <string>DPSWarr</string>
+      </key>
+      <value>
+        <string>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;CalculationOptionsDPSWarr xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;AllowFlooring&gt;false&lt;/AllowFlooring&gt;
+  &lt;SE_UseDur&gt;true&lt;/SE_UseDur&gt;
+  &lt;UseMarkov&gt;false&lt;/UseMarkov&gt;
+  &lt;PTRMode&gt;false&lt;/PTRMode&gt;
+  &lt;HideBadItems_Def&gt;true&lt;/HideBadItems_Def&gt;
+  &lt;HideBadItems_Spl&gt;true&lt;/HideBadItems_Spl&gt;
+  &lt;HideBadItems_PvP&gt;true&lt;/HideBadItems_PvP&gt;
+  &lt;SurvScale&gt;1&lt;/SurvScale&gt;
+  &lt;StatsList&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+  &lt;/StatsList&gt;
+  &lt;StatsIncrement&gt;100&lt;/StatsIncrement&gt;
+  &lt;CalculationToGraph&gt;DPS Rating&lt;/CalculationToGraph&gt;
+  &lt;Maintenance&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;false&lt;/boolean&gt;
+    &lt;boolean&gt;false&lt;/boolean&gt;
+    &lt;boolean&gt;false&lt;/boolean&gt;
+    &lt;boolean&gt;false&lt;/boolean&gt;
+    &lt;boolean&gt;false&lt;/boolean&gt;
+    &lt;boolean&gt;false&lt;/boolean&gt;
+    &lt;boolean&gt;false&lt;/boolean&gt;
+    &lt;boolean&gt;false&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;false&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+    &lt;boolean&gt;true&lt;/boolean&gt;
+  &lt;/Maintenance&gt;
+  &lt;Lag&gt;179&lt;/Lag&gt;
+  &lt;React&gt;220&lt;/React&gt;
+  &lt;FilterType&gt;Content&lt;/FilterType&gt;
+  &lt;Filter&gt;All&lt;/Filter&gt;
+  &lt;BossName&gt;Custom&lt;/BossName&gt;
+  &lt;TargetLevel&gt;83&lt;/TargetLevel&gt;
+  &lt;TargetArmor&gt;10643&lt;/TargetArmor&gt;
+  &lt;TargetHP&gt;1000000&lt;/TargetHP&gt;
+  &lt;Duration&gt;300&lt;/Duration&gt;
+  &lt;Under20Perc&gt;0.17&lt;/Under20Perc&gt;
+  &lt;InBack&gt;true&lt;/InBack&gt;
+  &lt;InBackPerc&gt;100&lt;/InBackPerc&gt;
+  &lt;MultipleTargets&gt;false&lt;/MultipleTargets&gt;
+  &lt;MultipleTargetsPerc&gt;25&lt;/MultipleTargetsPerc&gt;
+  &lt;MultipleTargetsMax&gt;3&lt;/MultipleTargetsMax&gt;
+  &lt;MovingTargets&gt;false&lt;/MovingTargets&gt;
+  &lt;StunningTargets&gt;false&lt;/StunningTargets&gt;
+  &lt;FearingTargets&gt;false&lt;/FearingTargets&gt;
+  &lt;RootingTargets&gt;false&lt;/RootingTargets&gt;
+  &lt;DisarmingTargets&gt;false&lt;/DisarmingTargets&gt;
+  &lt;AoETargets&gt;false&lt;/AoETargets&gt;
+  &lt;AoETargetsFreq&gt;20&lt;/AoETargetsFreq&gt;
+  &lt;AoETargetsDMG&gt;5000&lt;/AoETargetsDMG&gt;
+  &lt;Stuns /&gt;
+  &lt;Moves /&gt;
+  &lt;Fears /&gt;
+  &lt;Roots /&gt;
+  &lt;Disarms /&gt;
+&lt;/CalculationOptionsDPSWarr&gt;</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Bear</string>
+      </key>
+      <value>
+        <string>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;CalculationOptionsBear xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ThreatScale&gt;10&lt;/ThreatScale&gt;
+  &lt;SurvivalSoftCap&gt;160000&lt;/SurvivalSoftCap&gt;
+  &lt;TemporarySurvivalScale&gt;1&lt;/TemporarySurvivalScale&gt;
+  &lt;TargetLevel&gt;83&lt;/TargetLevel&gt;
+  &lt;TargetArmor&gt;10643&lt;/TargetArmor&gt;
+  &lt;TargetDamage&gt;65000&lt;/TargetDamage&gt;
+  &lt;TargetAttackSpeed&gt;2&lt;/TargetAttackSpeed&gt;
+  &lt;TargetParryHastes&gt;true&lt;/TargetParryHastes&gt;
+  &lt;CustomUseMaul&gt;false&lt;/CustomUseMaul&gt;
+  &lt;CustomUseMangle&gt;false&lt;/CustomUseMangle&gt;
+  &lt;CustomUseSwipe&gt;false&lt;/CustomUseSwipe&gt;
+  &lt;CustomUseFaerieFire&gt;false&lt;/CustomUseFaerieFire&gt;
+  &lt;CustomUseLacerate&gt;false&lt;/CustomUseLacerate&gt;
+&lt;/CalculationOptionsBear&gt;</string>
+      </value>
+    </item>
+  </CalculationOptions>
+  <Head>46151.41398.40002.0.3817</Head>
+  <Neck>45459.39996.0.0.0</Neck>
+  <Shoulders>46037.40002.40002.0.3808</Shoulders>
+  <Back>46032.40002.40002.0.3605</Back>
+  <Chest>46146.40002.40002.0.3832</Chest>
+  <Wrist>45663.39996.0.0.3845</Wrist>
+  <Hands>46148.39996.0.0.3604</Hands>
+  <Waist>46041.42153.42153.42153.0</Waist>
+  <Legs>46150.39996.39996.0.3823</Legs>
+  <Feet>45599.39996.39996.0.3606</Feet>
+  <Finger1>45106.0.0.0.0</Finger1>
+  <Finger2>45608.40003.0.0.0</Finger2>
+  <Trinket1>45931.0.0.0.0</Trinket1>
+  <Trinket2>42987.0.0.0.0</Trinket2>
+  <MainHand>45516.40002.40002.0.3789</MainHand>
+  <OffHand>45516.40003.40058.0.3789</OffHand>
+  <Ranged>45296.42702.0.0.0</Ranged>
+  <CustomGemmingTemplates>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>39996</RedId>
+      <YellowId>39996</YellowId>
+      <BlueId>39996</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>42702</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>40002</RedId>
+      <YellowId>40002</YellowId>
+      <BlueId>40002</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>42702</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>40003</RedId>
+      <YellowId>40003</YellowId>
+      <BlueId>40058</BlueId>
+      <MetaId>0</MetaId>
+      <PrismaticId>0</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Custom</Group>
+      <RedId>42702</RedId>
+      <YellowId>42702</YellowId>
+      <BlueId>42702</BlueId>
+      <MetaId>0</MetaId>
+      <PrismaticId>42702</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>0</RedId>
+      <YellowId>0</YellowId>
+      <BlueId>40003</BlueId>
+      <MetaId>0</MetaId>
+      <PrismaticId>0</PrismaticId>
+    </GemmingTemplate>
+  </CustomGemmingTemplates>
+  <GemmingTemplateOverrides>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic Strength</Group>
+      <RedId>40111</RedId>
+      <YellowId>40111</YellowId>
+      <BlueId>40111</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic Strength</Group>
+      <RedId>40111</RedId>
+      <YellowId>40111</YellowId>
+      <BlueId>40111</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic Strength</Group>
+      <RedId>40111</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>40129</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic Strength</Group>
+      <RedId>40111</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>40129</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic Strength</Group>
+      <RedId>40111</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>49110</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic Strength</Group>
+      <RedId>40111</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>49110</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40111</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic ArPen</Group>
+      <RedId>40117</RedId>
+      <YellowId>40117</YellowId>
+      <BlueId>40117</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic ArPen</Group>
+      <RedId>40117</RedId>
+      <YellowId>40117</YellowId>
+      <BlueId>40117</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic ArPen</Group>
+      <RedId>40117</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>40140</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic ArPen</Group>
+      <RedId>40117</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>40140</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic ArPen</Group>
+      <RedId>40117</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>49110</BlueId>
+      <MetaId>41285</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>DPSWarr</Model>
+      <Enabled>false</Enabled>
+      <Group>Epic ArPen</Group>
+      <RedId>40117</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>49110</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40117</PrismaticId>
+    </GemmingTemplate>
+  </GemmingTemplateOverrides>
+  <ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Dungeons</Name>
+      <Enabled>true</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Ahn'kahet</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Azjol-Nerub</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>The Culling of Stratholme</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Drak'Tharon Keep</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Forge of Souls</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Gundrak</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Halls of Lightning</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Halls of Stone</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Halls of Reflection</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Nexus</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Pit of Saron</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>The Oculus</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Trial of the Champion</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Utgarde Keep</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Utgarde Pinnacle</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Violet Hold</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Dungeons (Heroic)</Name>
+      <Enabled>false</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Ahn'kahet</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Azjol-Nerub</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>The Culling of Stratholme</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Drak'Tharon Keep</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Forge of Souls</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Gundrak</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Halls of Lightning</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Halls of Stone</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Halls of Reflection</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Nexus</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Pit of Saron</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>The Oculus</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Trial of the Champion</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Utgarde Keep</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Utgarde Pinnacle</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Violet Hold</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Tier 7 Raids (10/25) Nax/EoE/OS</Name>
+      <Enabled>false</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>10 Man Raids</Name>
+          <Enabled>false</Enabled>
+          <SubFilterOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Naxxramas</Name>
+              <Enabled>false</Enabled>
+              <SubFilterOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Construct Quarter</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Patchwerk</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Grobbulus</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Gluth</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Thaddius</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Plague Quarter</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Noth the Plaguebringer</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Heigan the Unclean</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Loatheb</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Spider Quarter</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Anub'Rekhan</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Grand Widow Faerlina</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Maexxna</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Military Quarter</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Instructor Razuvious</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Gothik the Harvester</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>The Four Horsemen</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Frostwyrm Lair</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Sapphiron</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Kel'Thuzad</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Trash Drops</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Other</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+              </SubFilterOverride>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Eye of Eternity</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Obsidian Sanctum</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Other</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+          </SubFilterOverride>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>25 Man Raids</Name>
+          <Enabled>false</Enabled>
+          <SubFilterOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Naxxramas</Name>
+              <Enabled>false</Enabled>
+              <SubFilterOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Construct Quarter</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Patchwerk</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Grobbulus</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Gluth</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Thaddius</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Plague Quarter</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Noth the Plaguebringer</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Heigan the Unclean</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Loatheb</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Spider Quarter</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Anub'Rekhan</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Grand Widow Faerlina</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Maexxna</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Military Quarter</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Instructor Razuvious</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Gothik the Harvester</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>The Four Horsemen</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Frostwyrm Lair</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Sapphiron</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Kel'Thuzad</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Trash Drops</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Other</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+              </SubFilterOverride>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Eye of Eternity</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Obsidian Sanctum</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Other</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+          </SubFilterOverride>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Tier 8 Raids (10/25) ULD</Name>
+      <Enabled>true</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Ulduar (10)</Name>
+          <Enabled>true</Enabled>
+          <SubFilterOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Flame Leviathan</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Ignis the Furnace Master</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Razorscale</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>XT-002 Deconstructor</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Assembly of Iron</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Kologarn</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Auriaya</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Mimiron</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Hodir</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Thorim</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Freya</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>General Vezax</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Yogg-Saron</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Algalon the Observer</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Quest Rewards</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Trash</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Other</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+          </SubFilterOverride>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Ulduar (25)</Name>
+          <Enabled>true</Enabled>
+          <SubFilterOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Flame Leviathan</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Ignis the Furnace Master</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Razorscale</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>XT-002 Deconstructor</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Assembly of Iron</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Kologarn</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Auriaya</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Mimiron</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Hodir</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Thorim</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Freya</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>General Vezax</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Yogg-Saron</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Algalon the Observer</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Quest Rewards</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Trash</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Other</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+          </SubFilterOverride>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Tier 9 Raids (10/25) ToC/ToGC</Name>
+      <Enabled>false</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>10 Man Raids</Name>
+          <Enabled>false</Enabled>
+          <SubFilterOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Trial of the Crusader</Name>
+              <Enabled>false</Enabled>
+              <SubFilterOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Northrend Beasts</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Lord Jaraxxus</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Faction Champions</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Twin Val'kyr</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Anub'arak</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Other</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+              </SubFilterOverride>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Trial of the Grand Crusader</Name>
+              <Enabled>false</Enabled>
+              <SubFilterOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Northrend Beasts</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Lord Jaraxxus</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Faction Champions</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Twin Val'kyr</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Anub'arak</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Tribute Chest</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Other</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+              </SubFilterOverride>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Other</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+          </SubFilterOverride>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>25 Man Raids</Name>
+          <Enabled>false</Enabled>
+          <SubFilterOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Trial of the Crusader</Name>
+              <Enabled>false</Enabled>
+              <SubFilterOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Northrend Beasts</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Lord Jaraxxus</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Faction Champions</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Twin Val'kyr</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Anub'arak</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Other</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+              </SubFilterOverride>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Trial of the Grand Crusader</Name>
+              <Enabled>false</Enabled>
+              <SubFilterOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Northrend Beasts</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Lord Jaraxxus</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Faction Champions</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Twin Val'kyr</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Anub'arak</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Tribute Chest</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Other</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+              </SubFilterOverride>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Other</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+          </SubFilterOverride>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Tier 10 Raids (10/25) ICC</Name>
+      <Enabled>false</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Icecrown Citadel (10)</Name>
+          <Enabled>false</Enabled>
+          <SubFilterOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Normal</Name>
+              <Enabled>false</Enabled>
+              <SubFilterOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Lower Spire</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Lord Marrowgar</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Lady Deathwhisper</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Gunship Battle</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Deathbringer Saurfang</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Plagueworks</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Festergut</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Rotface</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Professor Putricide</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Crimson Hall</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Blood Prince Council</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Blood-Queen Lana'thel</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Frostwing Hall</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Valithria Dreamwalker</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Sindragosa</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Frozen Throne</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>The Lich King</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Other</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+              </SubFilterOverride>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Heroic</Name>
+              <Enabled>false</Enabled>
+              <SubFilterOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Lower Spire</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Lord Marrowgar</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Lady Deathwhisper</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Gunship Battle</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Deathbringer Saurfang</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Plagueworks</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Festergut</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Rotface</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Professor Putricide</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Crimson Hall</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Blood Prince Council</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Blood-Queen Lana'thel</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Frostwing Hall</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Valithria Dreamwalker</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Sindragosa</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Frozen Throne</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>The Lich King</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Other</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+              </SubFilterOverride>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Other</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+          </SubFilterOverride>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Icecrown Citadel (25)</Name>
+          <Enabled>false</Enabled>
+          <SubFilterOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Normal</Name>
+              <Enabled>false</Enabled>
+              <SubFilterOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Lower Spire</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Lord Marrowgar</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Lady Deathwhisper</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Gunship Battle</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Deathbringer Saurfang</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Plagueworks</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Festergut</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Rotface</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Professor Putricide</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Crimson Hall</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Blood Prince Council</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Blood-Queen Lana'thel</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Frostwing Hall</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Valithria Dreamwalker</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Sindragosa</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Frozen Throne</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>The Lich King</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Other</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+              </SubFilterOverride>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Heroic</Name>
+              <Enabled>false</Enabled>
+              <SubFilterOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Lower Spire</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Lord Marrowgar</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Lady Deathwhisper</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Gunship Battle</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Deathbringer Saurfang</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Plagueworks</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Festergut</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Rotface</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Professor Putricide</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Crimson Hall</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Blood Prince Council</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Blood-Queen Lana'thel</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Frostwing Hall</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Valithria Dreamwalker</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Sindragosa</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>The Frozen Throne</Name>
+                  <Enabled>false</Enabled>
+                  <SubFilterOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>The Lich King</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                    <ItemFilterEnabledOverride>
+                      <Name>Other</Name>
+                      <Enabled>false</Enabled>
+                    </ItemFilterEnabledOverride>
+                  </SubFilterOverride>
+                </ItemFilterEnabledOverride>
+                <ItemFilterEnabledOverride>
+                  <Name>Other</Name>
+                  <Enabled>false</Enabled>
+                </ItemFilterEnabledOverride>
+              </SubFilterOverride>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Other</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+          </SubFilterOverride>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Rewards</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Trash</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Vault of Archavon (10/25)</Name>
+      <Enabled>false</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>10 Man Raids</Name>
+          <Enabled>false</Enabled>
+          <SubFilterOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Archavon the Stone Watcher</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Emalon the Storm Watcher</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Koralon the Flame Watcher</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Toravon the Ice Watcher</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Other</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+          </SubFilterOverride>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>25 Man Raids</Name>
+          <Enabled>false</Enabled>
+          <SubFilterOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Archavon the Stone Watcher</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Emalon the Storm Watcher</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Koralon the Flame Watcher</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Toravon the Ice Watcher</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Other</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+          </SubFilterOverride>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Onyxia's Lair (10/25)</Name>
+      <Enabled>false</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Onyxia's Lair (10)</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Onyxia's Lair (25)</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Ruby Sanctum (10/25)</Name>
+      <Enabled>false</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Ruby Sanctum (10)</Name>
+          <Enabled>false</Enabled>
+          <SubFilterOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Normal</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Heroic</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Other</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+          </SubFilterOverride>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Ruby Sanctum (25)</Name>
+          <Enabled>false</Enabled>
+          <SubFilterOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Normal</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Heroic</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Other</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+          </SubFilterOverride>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Special Currency (Emblems, Tokens, etc.)</Name>
+      <Enabled>true</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Badge of Justice</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Venture Coin</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Mark of Honor</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Stone Keeper's Shard</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Emblem of Heroism</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Emblem of Valor</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Emblem of Conquest</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Emblem of Triumph</Name>
+          <Enabled>false</Enabled>
+          <SubFilterOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Emblem of Triumph</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Trophy of the Crusade</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Other</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+          </SubFilterOverride>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Emblem of Frost</Name>
+          <Enabled>false</Enabled>
+          <SubFilterOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Emblem of Frost</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Class Token</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Other</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+          </SubFilterOverride>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Champion's Seal</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Kirin Tor Rings</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Armor Tokens</Name>
+          <Enabled>true</Enabled>
+          <SubFilterOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Tier 7</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Tier 8</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Tier 9</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Tier 10</Name>
+              <Enabled>false</Enabled>
+            </ItemFilterEnabledOverride>
+            <ItemFilterEnabledOverride>
+              <Name>Other</Name>
+              <Enabled>true</Enabled>
+            </ItemFilterEnabledOverride>
+          </SubFilterOverride>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Crafted</Name>
+      <Enabled>true</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Alchemy</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Blacksmithing</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Engineer</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Inscription</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Jewelcrafting (non-gem)</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Leatherworking</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Tailoring</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>? (Refresh from Wowhead)</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Faction Reputation</Name>
+      <Enabled>true</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Alliance Vanguard</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Argent Crusade</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Frenzyheart Tribe</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Horde Expedition</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Kalu'ak</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Kirin Tor</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Knights of the Ebon Blade</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>The Oracles</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>The Sons of Hodir</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Wyrmrest Accord</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Misc. Vendor</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Rare Elite</Name>
+      <Enabled>true</Enabled>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>PvP</Name>
+      <Enabled>false</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Requires Arena Rating</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Arena Points</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Honor Points</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Mark of Honor</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Emblem of Valor</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Emblem of Heroism</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Emblem of Conquest</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>? (Refresh from Armory)</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Quest Rewards</Name>
+      <Enabled>true</Enabled>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>World Drop</Name>
+      <Enabled>false</Enabled>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Burning Crusade</Name>
+      <Enabled>false</Enabled>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Classic</Name>
+      <Enabled>false</Enabled>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Seasonal</Name>
+      <Enabled>false</Enabled>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Unknown/Not found on armory</Name>
+      <Enabled>false</Enabled>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Disable Gems</Name>
+      <Enabled>false</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable Jewelcrafter BoP</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable Crafted (Non-BoP)</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable PvP</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable World Drop</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable Quest Rewards</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable Unknown/Not found on armory</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Disable BoP Crafted</Name>
+      <Enabled>false</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable BoP Alchemy</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable BoP Blacksmithing</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable BoP Engineering</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable BoP Inscription</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable BoP Jewelcrafting (non-gem)</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable BoP Leatherworking</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable BoP Tailoring</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Disable by Item Level</Name>
+      <Enabled>true</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable 0-1 (Heirloom)</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable 2-199     Tier 1-6</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable 200-218 Tier 7</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable 219-231 Tier 8</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable 232-250 Tier 9</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable 251-276 Tier 10</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable 277</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Disable 278+</Name>
+          <Enabled>true</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Disable by Bind Type</Name>
+      <Enabled>false</Enabled>
+      <SubFilterOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Binds on Pickup</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Binds on Account</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Binds on Equip</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Binds on Use</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+        <ItemFilterEnabledOverride>
+          <Name>Other</Name>
+          <Enabled>false</Enabled>
+        </ItemFilterEnabledOverride>
+      </SubFilterOverride>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>BOE Items (possible AH)</Name>
+      <Enabled>false</Enabled>
+    </ItemFilterEnabledOverride>
+    <ItemFilterEnabledOverride>
+      <Name>Other</Name>
+      <Enabled>true</Enabled>
+    </ItemFilterEnabledOverride>
+  </ItemFilterEnabledOverride>
+  <OptimizationRequirements />
+  <Boss>
+    <Targets />
+    <Moves />
+    <Stuns />
+    <Fears />
+    <Roots />
+    <Disarms />
+    <Name>Generic</Name>
+    <Content>T7_0</Content>
+    <Instance>None</Instance>
+    <Version>V_10N</Version>
+    <Comment>No comments have been written for this Boss.</Comment>
+    <Level>83</Level>
+    <Armor>10643</Armor>
+    <BerserkTimer>480</BerserkTimer>
+    <SpeedKillTimer>180</SpeedKillTimer>
+    <Health>1000000</Health>
+    <InBackPerc_Melee>0</InBackPerc_Melee>
+    <InBackPerc_Ranged>0</InBackPerc_Ranged>
+    <Max_Players>10</Max_Players>
+    <Min_Healers>3</Min_Healers>
+    <Min_Tanks>2</Min_Tanks>
+    <DoTs />
+    <Attacks />
+    <Resist_Physical>0</Resist_Physical>
+    <Resist_Frost>0</Resist_Frost>
+    <Resist_Fire>0</Resist_Fire>
+    <Resist_Nature>0</Resist_Nature>
+    <Resist_Arcane>0</Resist_Arcane>
+    <Resist_Shadow>0</Resist_Shadow>
+    <Resist_Holy>0</Resist_Holy>
+    <TimeBossIsInvuln>0</TimeBossIsInvuln>
+    <InBack>false</InBack>
+    <MultiTargs>false</MultiTargs>
+    <StunningTargs>false</StunningTargs>
+    <MovingTargs>false</MovingTargs>
+    <FearingTargs>false</FearingTargs>
+    <RootingTargs>false</RootingTargs>
+    <DisarmingTargs>false</DisarmingTargs>
+    <DamagingTargs>false</DamagingTargs>
+    <Under35Perc>0.1</Under35Perc>
+    <Under20Perc>0.15</Under20Perc>
+    <FilterType>Content</FilterType>
+    <Filter />
+    <BossName />
+  </Boss>
+  <WarriorTalents>3220030023300000000000000000000325023000505310053120501351000000000000000000000000000.0000100001000000000000000010011001</WarriorTalents>
+  <PaladinTalents>000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000000000000000000</PaladinTalents>
+  <HunterTalents>000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000000000000000000000000000000</HunterTalents>
+  <RogueTalents>00000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000000000000000000</RogueTalents>
+  <PriestTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000000000000000000000000000000</PriestTalents>
+  <ShamanTalents>00000000000000000000000000000000000000000000000000000000000000000000000000000000.00000000000000000000000000000</ShamanTalents>
+  <MageTalents>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000</MageTalents>
+  <WarlockTalents>000000000000000000000000000000000000000000000000000000000000000000000000000000000.00000000000000000</WarlockTalents>
+  <DruidTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000000000</DruidTalents>
+  <DeathKnightTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000000000000000000000000000000</DeathKnightTalents>
+  <CustomItemInstances />
+  <WaistBlacksmithingSocketEnabled>true</WaistBlacksmithingSocketEnabled>
+  <HandsBlacksmithingSocketEnabled>false</HandsBlacksmithingSocketEnabled>
+  <WristBlacksmithingSocketEnabled>false</WristBlacksmithingSocketEnabled>
+  <PrimaryProfession>Engineering</PrimaryProfession>
+  <SecondaryProfession>Jewelcrafting</SecondaryProfession>
+</Character>
