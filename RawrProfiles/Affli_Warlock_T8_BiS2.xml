@@ -1,13 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Character xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Region>US</Region>
-  <Race>Troll</Race>
-  <Class>Mage</Class>
+  <Race>Orc</Race>
+  <Class>Warlock</Class>
+  <ActiveBuffs>Strength of Earth Totem</ActiveBuffs>
+  <ActiveBuffs>Enhancing Totems (Agility/Strength)</ActiveBuffs>
+  <ActiveBuffs>Blessing of Might</ActiveBuffs>
+  <ActiveBuffs>Improved Blessing of Might</ActiveBuffs>
+  <ActiveBuffs>Unleashed Rage</ActiveBuffs>
   <ActiveBuffs>Sanctified Retribution</ActiveBuffs>
   <ActiveBuffs>Swift Retribution</ActiveBuffs>
   <ActiveBuffs>Commanding Shout</ActiveBuffs>
   <ActiveBuffs>Commanding Presence (Health)</ActiveBuffs>
   <ActiveBuffs>Arcane Intellect</ActiveBuffs>
+  <ActiveBuffs>Leader of the Pack</ActiveBuffs>
+  <ActiveBuffs>Improved Leader of the Pack</ActiveBuffs>
+  <ActiveBuffs>Improved Icy Talons</ActiveBuffs>
   <ActiveBuffs>Judgements of the Wise</ActiveBuffs>
   <ActiveBuffs>Blessing of Wisdom</ActiveBuffs>
   <ActiveBuffs>Improved Blessing of Wisdom</ActiveBuffs>
@@ -21,15 +29,12 @@
   <ActiveBuffs>Mark of the Wild</ActiveBuffs>
   <ActiveBuffs>Improved Mark of the Wild</ActiveBuffs>
   <ActiveBuffs>Blessing of Kings</ActiveBuffs>
-  <ActiveBuffs>Shadow Resistance Aura</ActiveBuffs>
-  <ActiveBuffs>Nature Resistance Totem</ActiveBuffs>
-  <ActiveBuffs>Frost Resistance Totem</ActiveBuffs>
-  <ActiveBuffs>Fire Resistance Totem</ActiveBuffs>
-  <ActiveBuffs>Concentration Aura</ActiveBuffs>
-  <ActiveBuffs>Improved Concentration Aura</ActiveBuffs>
-  <ActiveBuffs>Molten Armor</ActiveBuffs>
+  <ActiveBuffs>Heroism/Bloodlust</ActiveBuffs>
+  <ActiveBuffs>Sunder Armor</ActiveBuffs>
+  <ActiveBuffs>Faerie Fire</ActiveBuffs>
   <ActiveBuffs>Heart of the Crusader</ActiveBuffs>
   <ActiveBuffs>Judgement of Wisdom</ActiveBuffs>
+  <ActiveBuffs>Savage Combat</ActiveBuffs>
   <ActiveBuffs>Improved Scorch</ActiveBuffs>
   <ActiveBuffs>Earth and Moon</ActiveBuffs>
   <ActiveBuffs>Improved Faerie Fire</ActiveBuffs>
@@ -37,9 +42,8 @@
   <ActiveBuffs>Potion of Speed</ActiveBuffs>
   <ActiveBuffs>Potion of Speed (Double Pot Trick)</ActiveBuffs>
   <ActiveBuffs>Fish Feast</ActiveBuffs>
-  <ActiveBuffs>Kirin Tor Garb 2 Piece</ActiveBuffs>
-  <ActiveBuffs>Kirin Tor Garb 4 Piece</ActiveBuffs>
-  <CurrentModel>Mage</CurrentModel>
+  <ActiveBuffs>Deathbringer Garb 2 Piece Bonus</ActiveBuffs>
+  <CurrentModel>Warlock</CurrentModel>
   <EnforceMetagemRequirements>false</EnforceMetagemRequirements>
   <CalculationOptions>
     <item>
@@ -249,7 +253,6 @@
   &lt;FocusMagicTargetCritRate&gt;0.2&lt;/FocusMagicTargetCritRate&gt;
   &lt;UnlimitedMana&gt;false&lt;/UnlimitedMana&gt;
   &lt;AbsorptionPerSecond&gt;0&lt;/AbsorptionPerSecond&gt;
-  &lt;CustomSpellMix /&gt;
   &lt;CustomSpellMixEnabled&gt;false&lt;/CustomSpellMixEnabled&gt;
   &lt;GlobalRestarts&gt;0&lt;/GlobalRestarts&gt;
   &lt;CustomSpellMixOnly&gt;false&lt;/CustomSpellMixOnly&gt;
@@ -492,6 +495,7 @@
     &lt;Rotation&gt;
       &lt;Name&gt;Destruction&lt;/Name&gt;
       &lt;Filler&gt;Incinerate&lt;/Filler&gt;
+      &lt;Execute /&gt;
       &lt;SpellPriority&gt;
         &lt;string&gt;Immolate&lt;/string&gt;
         &lt;string&gt;Conflagrate&lt;/string&gt;
@@ -515,22 +519,23 @@
       </value>
     </item>
   </CalculationOptions>
-  <Head>46129.41285.39998.0.3820</Head>
-  <Neck>45133.40014.0.0.0</Neck>
-  <Shoulders>46134.39998.0.0.3810</Shoulders>
-  <Back>45242.40014.0.0.3722</Back>
-  <Chest>46130.39998.39998.0.3832</Chest>
+  <Head>45150.41285.40026.0.3820</Head>
+  <Neck>45133.40051.0.0.0</Neck>
+  <Shoulders>46136.39998.0.0.3810</Shoulders>
+  <Back>45618.39998.0.0.3722</Back>
+  <Chest>45272.40049.0.0.3832</Chest>
   <Wrist>45446.39998.0.0.2332</Wrist>
   <Hands>45665.39998.39998.0.3604</Hands>
-  <Waist>45619.39998.39998.39998.0</Waist>
-  <Legs>46133.39998.39998.0.3719</Legs>
-  <Feet>45537.39998.39998.0.3606</Feet>
+  <Waist>45557.40026.39998.39998.0</Waist>
+  <Legs>46139.39998.39998.0.3719</Legs>
+  <Feet>45135.39998.40049.0.3606</Feet>
   <Finger1>46046.40049.0.0.0</Finger1>
   <Finger2>45495.39998.0.0.0</Finger2>
-  <Trinket1>45308.0.0.0.0</Trinket1>
+  <Trinket1>40432.0.0.0.0</Trinket1>
   <Trinket2>45518.0.0.0.0</Trinket2>
-  <MainHand>45457.39998.39998.0.3854</MainHand>
-  <Ranged>45294.39998.0.0.0</Ranged>
+  <MainHand>45620.39998.0.0.3834</MainHand>
+  <OffHand>45617.0.0.0.0</OffHand>
+  <Ranged>45294.40049.0.0.0</Ranged>
   <Projectile>41165.0.0.0.0</Projectile>
   <CustomGemmingTemplates>
     <GemmingTemplate>
@@ -562,56 +567,6 @@
       <BlueId>42144</BlueId>
       <MetaId>0</MetaId>
       <PrismaticId>42144</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Mage</Model>
-      <Enabled>true</Enabled>
-      <Group>Custom</Group>
-      <RedId>39998</RedId>
-      <YellowId>39998</YellowId>
-      <BlueId>39998</BlueId>
-      <MetaId>0</MetaId>
-      <PrismaticId>39998</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Mage</Model>
-      <Enabled>true</Enabled>
-      <Group>Custom</Group>
-      <RedId>40049</RedId>
-      <YellowId>40049</YellowId>
-      <BlueId>40049</BlueId>
-      <MetaId>0</MetaId>
-      <PrismaticId>40049</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Mage</Model>
-      <Enabled>true</Enabled>
-      <Group>Custom</Group>
-      <RedId>40048</RedId>
-      <YellowId>40048</YellowId>
-      <BlueId>40048</BlueId>
-      <MetaId>0</MetaId>
-      <PrismaticId>40048</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Mage</Model>
-      <Enabled>true</Enabled>
-      <Group>Custom</Group>
-      <RedId>40013</RedId>
-      <YellowId>40013</YellowId>
-      <BlueId>40013</BlueId>
-      <MetaId>0</MetaId>
-      <PrismaticId>40013</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Mage</Model>
-      <Enabled>true</Enabled>
-      <Group>Custom</Group>
-      <RedId>40014</RedId>
-      <YellowId>40014</YellowId>
-      <BlueId>40014</BlueId>
-      <MetaId>0</MetaId>
-      <PrismaticId>40014</PrismaticId>
     </GemmingTemplate>
   </CustomGemmingTemplates>
   <GemmingTemplateOverrides>
@@ -1351,56 +1306,6 @@
       <Group>Epic</Group>
       <RedId>40113</RedId>
       <YellowId>40155</YellowId>
-      <BlueId>40133</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>40113</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Mage</Model>
-      <Enabled>false</Enabled>
-      <Group>Epic (Purified)</Group>
-      <RedId>40113</RedId>
-      <YellowId>40113</YellowId>
-      <BlueId>40113</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>40113</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Mage</Model>
-      <Enabled>false</Enabled>
-      <Group>Epic (Purified)</Group>
-      <RedId>40113</RedId>
-      <YellowId>40153</YellowId>
-      <BlueId>40133</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>40113</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Mage</Model>
-      <Enabled>false</Enabled>
-      <Group>Epic (Purified)</Group>
-      <RedId>40113</RedId>
-      <YellowId>40152</YellowId>
-      <BlueId>40133</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>40113</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Mage</Model>
-      <Enabled>false</Enabled>
-      <Group>Epic (Purified)</Group>
-      <RedId>40113</RedId>
-      <YellowId>40155</YellowId>
-      <BlueId>40133</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>40113</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Mage</Model>
-      <Enabled>false</Enabled>
-      <Group>Epic (Purified)</Group>
-      <RedId>40113</RedId>
-      <YellowId>40151</YellowId>
       <BlueId>40133</BlueId>
       <MetaId>41285</MetaId>
       <PrismaticId>40113</PrismaticId>
@@ -3237,7 +3142,7 @@
   <RogueTalents>00000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000000000000000000</RogueTalents>
   <PriestTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000000000000000000000000000000</PriestTalents>
   <ShamanTalents>55300015032133513223013510050500310000000000000000000000000000000000000000000000.01000000000000000000000000111</ShamanTalents>
-  <MageTalents>23002303110003000000000000000000550320123033300531203003510000000000000000000000000000.1000000100000010000</MageTalents>
+  <MageTalents>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000</MageTalents>
   <WarlockTalents>235000203012351005350033115100000000000000000000000000055000005200000000000000000.00000010001010000</WarlockTalents>
   <DruidTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000000000</DruidTalents>
   <DeathKnightTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000000000000000000000000000000</DeathKnightTalents>
