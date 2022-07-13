@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Character xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Region>US</Region>
-  <Race>Orc</Race>
-  <Class>Warlock</Class>
+  <Race>BloodElf</Race>
+  <Class>Paladin</Class>
   <ActiveBuffs>Strength of Earth Totem</ActiveBuffs>
   <ActiveBuffs>Enhancing Totems (Agility/Strength)</ActiveBuffs>
   <ActiveBuffs>Blessing of Might</ActiveBuffs>
   <ActiveBuffs>Improved Blessing of Might</ActiveBuffs>
   <ActiveBuffs>Unleashed Rage</ActiveBuffs>
   <ActiveBuffs>Sanctified Retribution</ActiveBuffs>
+  <ActiveBuffs>Blessing of Sanctuary</ActiveBuffs>
   <ActiveBuffs>Swift Retribution</ActiveBuffs>
   <ActiveBuffs>Commanding Shout</ActiveBuffs>
   <ActiveBuffs>Commanding Presence (Health)</ActiveBuffs>
@@ -16,34 +17,26 @@
   <ActiveBuffs>Leader of the Pack</ActiveBuffs>
   <ActiveBuffs>Improved Leader of the Pack</ActiveBuffs>
   <ActiveBuffs>Improved Icy Talons</ActiveBuffs>
-  <ActiveBuffs>Judgements of the Wise</ActiveBuffs>
-  <ActiveBuffs>Blessing of Wisdom</ActiveBuffs>
-  <ActiveBuffs>Improved Blessing of Wisdom</ActiveBuffs>
   <ActiveBuffs>Elemental Oath</ActiveBuffs>
   <ActiveBuffs>Focus Magic</ActiveBuffs>
-  <ActiveBuffs>Wrath of Air Totem</ActiveBuffs>
   <ActiveBuffs>Totem of Wrath (Spell Power)</ActiveBuffs>
-  <ActiveBuffs>Divine Spirit</ActiveBuffs>
   <ActiveBuffs>Power Word: Fortitude</ActiveBuffs>
   <ActiveBuffs>Improved Power Word: Fortitude</ActiveBuffs>
   <ActiveBuffs>Mark of the Wild</ActiveBuffs>
   <ActiveBuffs>Improved Mark of the Wild</ActiveBuffs>
   <ActiveBuffs>Blessing of Kings</ActiveBuffs>
-  <ActiveBuffs>Heroism/Bloodlust</ActiveBuffs>
   <ActiveBuffs>Sunder Armor</ActiveBuffs>
   <ActiveBuffs>Faerie Fire</ActiveBuffs>
   <ActiveBuffs>Heart of the Crusader</ActiveBuffs>
-  <ActiveBuffs>Judgement of Wisdom</ActiveBuffs>
   <ActiveBuffs>Savage Combat</ActiveBuffs>
   <ActiveBuffs>Improved Scorch</ActiveBuffs>
   <ActiveBuffs>Earth and Moon</ActiveBuffs>
   <ActiveBuffs>Improved Faerie Fire</ActiveBuffs>
-  <ActiveBuffs>Flask of the Frost Wyrm</ActiveBuffs>
+  <ActiveBuffs>Flask of Endless Rage</ActiveBuffs>
   <ActiveBuffs>Potion of Speed</ActiveBuffs>
   <ActiveBuffs>Potion of Speed (Double Pot Trick)</ActiveBuffs>
   <ActiveBuffs>Fish Feast</ActiveBuffs>
-  <ActiveBuffs>Deathbringer Garb 2 Piece Bonus</ActiveBuffs>
-  <CurrentModel>Warlock</CurrentModel>
+  <CurrentModel>Retribution</CurrentModel>
   <EnforceMetagemRequirements>false</EnforceMetagemRequirements>
   <CalculationOptions>
     <item>
@@ -455,87 +448,95 @@
     </item>
     <item>
       <key>
-        <string>Warlock</string>
+        <string>Healadin</string>
       </key>
       <value>
         <string>&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;CalculationOptionsWarlock xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;Pet&gt;Felhunter&lt;/Pet&gt;
-  &lt;Imbue&gt;Grand Spellstone&lt;/Imbue&gt;
-  &lt;UseInfernal&gt;false&lt;/UseInfernal&gt;
+&lt;CalculationOptionsHealadin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Length&gt;7&lt;/Length&gt;
+  &lt;Activity&gt;0.85&lt;/Activity&gt;
+  &lt;Replenishment&gt;0.9&lt;/Replenishment&gt;
+  &lt;DivinePlea&gt;2&lt;/DivinePlea&gt;
+  &lt;BoLUp&gt;1&lt;/BoLUp&gt;
+  &lt;HolyShock&gt;0.15&lt;/HolyShock&gt;
+  &lt;BurstScale&gt;0.4&lt;/BurstScale&gt;
+  &lt;GHL_Targets&gt;1&lt;/GHL_Targets&gt;
+  &lt;InfusionOfLight&gt;true&lt;/InfusionOfLight&gt;
+  &lt;IoLHolyLight&gt;0.9&lt;/IoLHolyLight&gt;
+  &lt;JotP&gt;true&lt;/JotP&gt;
+  &lt;Judgement&gt;true&lt;/Judgement&gt;
+  &lt;LoHSelf&gt;false&lt;/LoHSelf&gt;
+  &lt;SSUptime&gt;1&lt;/SSUptime&gt;
+  &lt;FoLOnTank&gt;0.25&lt;/FoLOnTank&gt;
+  &lt;SpiritIrrelevant&gt;true&lt;/SpiritIrrelevant&gt;
+  &lt;HitIrrelevant&gt;true&lt;/HitIrrelevant&gt;
+&lt;/CalculationOptionsHealadin&gt;</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Retribution</string>
+      </key>
+      <value>
+        <string>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;CalculationOptionsRetribution xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;FightLength&gt;5&lt;/FightLength&gt;
+  &lt;Mob&gt;Humanoid&lt;/Mob&gt;
+  &lt;Seal&gt;Vengeance&lt;/Seal&gt;
   &lt;TargetLevel&gt;83&lt;/TargetLevel&gt;
-  &lt;Duration&gt;300&lt;/Duration&gt;
-  &lt;Latency&gt;0.1&lt;/Latency&gt;
-  &lt;ThirtyFive&gt;0.25&lt;/ThirtyFive&gt;
-  &lt;TwentyFive&gt;0.15&lt;/TwentyFive&gt;
+  &lt;TimeUnder20&gt;0.18&lt;/TimeUnder20&gt;
+  &lt;StackTrinketReset&gt;0&lt;/StackTrinketReset&gt;
+  &lt;Targets&gt;1&lt;/Targets&gt;
+  &lt;InFront&gt;0&lt;/InFront&gt;
+  &lt;ConsEff&gt;1&lt;/ConsEff&gt;
+  &lt;Bloodlust&gt;true&lt;/Bloodlust&gt;
+  &lt;HoREff&gt;0&lt;/HoREff&gt;
+  &lt;TargetSwitches&gt;0&lt;/TargetSwitches&gt;
+  &lt;SimulateRotation&gt;true&lt;/SimulateRotation&gt;
   &lt;Rotations&gt;
-    &lt;Rotation&gt;
-      &lt;Name&gt;Affliction&lt;/Name&gt;
-      &lt;Filler&gt;Shadow Bolt&lt;/Filler&gt;
-      &lt;Execute&gt;Drain Soul&lt;/Execute&gt;
-      &lt;SpellPriority&gt;
-        &lt;string&gt;Haunt&lt;/string&gt;
-        &lt;string&gt;Corruption&lt;/string&gt;
-        &lt;string&gt;Unstable Affliction&lt;/string&gt;
-        &lt;string&gt;Curse Of Agony&lt;/string&gt;
-      &lt;/SpellPriority&gt;
-    &lt;/Rotation&gt;
-    &lt;Rotation&gt;
-      &lt;Name&gt;Demonology&lt;/Name&gt;
-      &lt;Filler&gt;Shadow Bolt&lt;/Filler&gt;
-      &lt;Execute&gt;Soul Fire&lt;/Execute&gt;
-      &lt;SpellPriority&gt;
-        &lt;string&gt;Immolation Aura&lt;/string&gt;
-        &lt;string&gt;Corruption&lt;/string&gt;
-        &lt;string&gt;Immolate&lt;/string&gt;
-        &lt;string&gt;Incinerate (Under Molten Core)&lt;/string&gt;
-        &lt;string&gt;Curse Of Agony&lt;/string&gt;
-      &lt;/SpellPriority&gt;
-    &lt;/Rotation&gt;
-    &lt;Rotation&gt;
-      &lt;Name&gt;Destruction&lt;/Name&gt;
-      &lt;Filler&gt;Incinerate&lt;/Filler&gt;
-      &lt;Execute /&gt;
-      &lt;SpellPriority&gt;
-        &lt;string&gt;Immolate&lt;/string&gt;
-        &lt;string&gt;Conflagrate&lt;/string&gt;
-        &lt;string&gt;Incinerate (Under Backdraft)&lt;/string&gt;
-        &lt;string&gt;Chaos Bolt&lt;/string&gt;
-        &lt;string&gt;Curse Of Doom&lt;/string&gt;
-      &lt;/SpellPriority&gt;
-    &lt;/Rotation&gt;
+    &lt;ArrayOfAbility&gt;
+      &lt;Ability&gt;CrusaderStrike&lt;/Ability&gt;
+      &lt;Ability&gt;HammerOfWrath&lt;/Ability&gt;
+      &lt;Ability&gt;Judgement&lt;/Ability&gt;
+      &lt;Ability&gt;Consecration&lt;/Ability&gt;
+      &lt;Ability&gt;DivineStorm&lt;/Ability&gt;
+      &lt;Ability&gt;Exorcism&lt;/Ability&gt;
+    &lt;/ArrayOfAbility&gt;
   &lt;/Rotations&gt;
-  &lt;ActiveRotationIndex&gt;0&lt;/ActiveRotationIndex&gt;
-  &lt;PerSP&gt;1&lt;/PerSP&gt;
-  &lt;ConvertTotem&gt;false&lt;/ConvertTotem&gt;
-  &lt;PerFlametongue&gt;500&lt;/PerFlametongue&gt;
-  &lt;PerMagicBuff&gt;0&lt;/PerMagicBuff&gt;
-  &lt;PerCritBuff&gt;0&lt;/PerCritBuff&gt;
-  &lt;PerInt&gt;0&lt;/PerInt&gt;
-  &lt;PerSpi&gt;0&lt;/PerSpi&gt;
-  &lt;PerHealth&gt;0&lt;/PerHealth&gt;
-  &lt;NoProcs&gt;false&lt;/NoProcs&gt;
-&lt;/CalculationOptionsWarlock&gt;</string>
+  &lt;Delay&gt;0.05&lt;/Delay&gt;
+  &lt;Wait&gt;0.05&lt;/Wait&gt;
+  &lt;JudgeCD&gt;7.1&lt;/JudgeCD&gt;
+  &lt;CSCD&gt;7.1&lt;/CSCD&gt;
+  &lt;DSCD&gt;10.5&lt;/DSCD&gt;
+  &lt;ConsCD&gt;10.5&lt;/ConsCD&gt;
+  &lt;ExoCD&gt;18&lt;/ExoCD&gt;
+  &lt;JudgeCD20&gt;7.1&lt;/JudgeCD20&gt;
+  &lt;CSCD20&gt;7.1&lt;/CSCD20&gt;
+  &lt;DSCD20&gt;12.5&lt;/DSCD20&gt;
+  &lt;ConsCD20&gt;12.5&lt;/ConsCD20&gt;
+  &lt;ExoCD20&gt;25&lt;/ExoCD20&gt;
+  &lt;HoWCD20&gt;6.4&lt;/HoWCD20&gt;
+  &lt;Experimental /&gt;
+&lt;/CalculationOptionsRetribution&gt;</string>
       </value>
     </item>
   </CalculationOptions>
-  <Head>45150.41285.40026.0.3820</Head>
-  <Neck>45133.40049.0.0.0</Neck>
-  <Shoulders>46136.40049.0.0.3810</Shoulders>
-  <Back>45618.39998.0.0.3722</Back>
-  <Chest>47604.39998.39998.39998.3832</Chest>
-  <Wrist>45446.39998.0.0.2332</Wrist>
-  <Hands>45665.39998.39998.0.3604</Hands>
-  <Waist>45557.40026.39998.39998.0</Waist>
-  <Legs>46139.39998.39998.0.3719</Legs>
-  <Feet>45135.39998.40049.0.3606</Feet>
-  <Finger1>46046.39998.0.0.0</Finger1>
-  <Finger2>45495.39998.0.0.0</Finger2>
-  <Trinket1>40432.0.0.0.0</Trinket1>
-  <Trinket2>45518.0.0.0.0</Trinket2>
-  <MainHand>45620.39998.0.0.3834</MainHand>
-  <OffHand>45617.0.0.0.0</OffHand>
-  <Ranged>45294.39998.0.0.0</Ranged>
+  <Head>45472.41398.40038.0.3817</Head>
+  <Neck>45517.40003.0.0.0</Neck>
+  <Shoulders>45245.39996.39996.0.3808</Shoulders>
+  <Back>45461.40058.0.0.3730</Back>
+  <Chest>45473.39996.39996.39996.3832</Chest>
+  <Wrist>45663.39996.0.0.3845</Wrist>
+  <Hands>45444.39996.39996.0.3604</Hands>
+  <Waist>46095.39996.39996.39996.0</Waist>
+  <Legs>45134.39996.39996.39996.3823</Legs>
+  <Feet>45599.39996.39996.0.3606</Feet>
+  <Finger1>45534.42702.0.0.0</Finger1>
+  <Finger2>45608.39996.0.0.0</Finger2>
+  <Trinket1>42987.0.0.0.0</Trinket1>
+  <Trinket2>45609.0.0.0.0</Trinket2>
+  <MainHand>45516.39996.39996.0.3789</MainHand>
+  <Ranged>37574.0.0.0.0</Ranged>
   <Projectile>41165.0.0.0.0</Projectile>
   <CustomGemmingTemplates>
     <GemmingTemplate>
@@ -567,6 +568,46 @@
       <BlueId>42144</BlueId>
       <MetaId>0</MetaId>
       <PrismaticId>42144</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>40003</RedId>
+      <YellowId>40003</YellowId>
+      <BlueId>40003</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>42702</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>40058</RedId>
+      <YellowId>40058</YellowId>
+      <BlueId>40058</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40058</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>39996</RedId>
+      <YellowId>39996</YellowId>
+      <BlueId>42702</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>42702</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Retribution</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>0</RedId>
+      <YellowId>40038</YellowId>
+      <BlueId>0</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>0</PrismaticId>
     </GemmingTemplate>
   </CustomGemmingTemplates>
   <GemmingTemplateOverrides>
@@ -1191,124 +1232,124 @@
       <PrismaticId>40175</PrismaticId>
     </GemmingTemplate>
     <GemmingTemplate>
-      <Model>Warlock</Model>
+      <Model>Retribution</Model>
       <Enabled>true</Enabled>
       <Group>Rare</Group>
-      <RedId>39998</RedId>
-      <YellowId>39998</YellowId>
-      <BlueId>39998</BlueId>
-      <MetaId>41333</MetaId>
-      <PrismaticId>39998</PrismaticId>
+      <RedId>39996</RedId>
+      <YellowId>39996</YellowId>
+      <BlueId>39996</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>39996</PrismaticId>
     </GemmingTemplate>
     <GemmingTemplate>
-      <Model>Warlock</Model>
+      <Model>Retribution</Model>
       <Enabled>true</Enabled>
       <Group>Rare</Group>
-      <RedId>39998</RedId>
-      <YellowId>40049</YellowId>
-      <BlueId>40026</BlueId>
-      <MetaId>41333</MetaId>
-      <PrismaticId>39998</PrismaticId>
+      <RedId>39996</RedId>
+      <YellowId>40037</YellowId>
+      <BlueId>42702</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>39996</PrismaticId>
     </GemmingTemplate>
     <GemmingTemplate>
-      <Model>Warlock</Model>
+      <Model>Retribution</Model>
       <Enabled>true</Enabled>
       <Group>Rare</Group>
-      <RedId>39998</RedId>
-      <YellowId>40051</YellowId>
-      <BlueId>40026</BlueId>
-      <MetaId>41333</MetaId>
-      <PrismaticId>39998</PrismaticId>
+      <RedId>39996</RedId>
+      <YellowId>42702</YellowId>
+      <BlueId>40022</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>39996</PrismaticId>
     </GemmingTemplate>
     <GemmingTemplate>
-      <Model>Warlock</Model>
+      <Model>Retribution</Model>
       <Enabled>true</Enabled>
       <Group>Rare</Group>
-      <RedId>39998</RedId>
-      <YellowId>39998</YellowId>
-      <BlueId>39998</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>39998</PrismaticId>
+      <RedId>39996</RedId>
+      <YellowId>40037</YellowId>
+      <BlueId>40022</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>39996</PrismaticId>
     </GemmingTemplate>
     <GemmingTemplate>
-      <Model>Warlock</Model>
+      <Model>Retribution</Model>
       <Enabled>true</Enabled>
       <Group>Rare</Group>
-      <RedId>39998</RedId>
-      <YellowId>40049</YellowId>
-      <BlueId>40026</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>39998</PrismaticId>
+      <RedId>40038</RedId>
+      <YellowId>40014</YellowId>
+      <BlueId>40088</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40014</PrismaticId>
     </GemmingTemplate>
     <GemmingTemplate>
-      <Model>Warlock</Model>
+      <Model>Retribution</Model>
       <Enabled>true</Enabled>
       <Group>Rare</Group>
-      <RedId>39998</RedId>
-      <YellowId>40051</YellowId>
-      <BlueId>40026</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>39998</PrismaticId>
+      <RedId>40003</RedId>
+      <YellowId>40058</YellowId>
+      <BlueId>40034</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40003</PrismaticId>
     </GemmingTemplate>
     <GemmingTemplate>
-      <Model>Warlock</Model>
+      <Model>Retribution</Model>
       <Enabled>false</Enabled>
       <Group>Epic</Group>
-      <RedId>40113</RedId>
-      <YellowId>40113</YellowId>
-      <BlueId>40113</BlueId>
-      <MetaId>41333</MetaId>
-      <PrismaticId>40113</PrismaticId>
+      <RedId>40111</RedId>
+      <YellowId>40111</YellowId>
+      <BlueId>40111</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40111</PrismaticId>
     </GemmingTemplate>
     <GemmingTemplate>
-      <Model>Warlock</Model>
+      <Model>Retribution</Model>
       <Enabled>false</Enabled>
       <Group>Epic</Group>
-      <RedId>40113</RedId>
-      <YellowId>40153</YellowId>
-      <BlueId>40133</BlueId>
-      <MetaId>41333</MetaId>
-      <PrismaticId>40113</PrismaticId>
+      <RedId>40111</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>49110</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40111</PrismaticId>
     </GemmingTemplate>
     <GemmingTemplate>
-      <Model>Warlock</Model>
+      <Model>Retribution</Model>
       <Enabled>false</Enabled>
       <Group>Epic</Group>
-      <RedId>40113</RedId>
-      <YellowId>40155</YellowId>
-      <BlueId>40133</BlueId>
-      <MetaId>41333</MetaId>
-      <PrismaticId>40113</PrismaticId>
+      <RedId>40111</RedId>
+      <YellowId>49110</YellowId>
+      <BlueId>40129</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40111</PrismaticId>
     </GemmingTemplate>
     <GemmingTemplate>
-      <Model>Warlock</Model>
+      <Model>Retribution</Model>
       <Enabled>false</Enabled>
       <Group>Epic</Group>
-      <RedId>40113</RedId>
-      <YellowId>40113</YellowId>
-      <BlueId>40113</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>40113</PrismaticId>
+      <RedId>40111</RedId>
+      <YellowId>40142</YellowId>
+      <BlueId>40129</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40111</PrismaticId>
     </GemmingTemplate>
     <GemmingTemplate>
-      <Model>Warlock</Model>
+      <Model>Retribution</Model>
       <Enabled>false</Enabled>
       <Group>Epic</Group>
-      <RedId>40113</RedId>
-      <YellowId>40153</YellowId>
-      <BlueId>40133</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>40113</PrismaticId>
+      <RedId>40143</RedId>
+      <YellowId>40125</YellowId>
+      <BlueId>40166</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40125</PrismaticId>
     </GemmingTemplate>
     <GemmingTemplate>
-      <Model>Warlock</Model>
+      <Model>Retribution</Model>
       <Enabled>false</Enabled>
       <Group>Epic</Group>
-      <RedId>40113</RedId>
-      <YellowId>40155</YellowId>
-      <BlueId>40133</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>40113</PrismaticId>
+      <RedId>40118</RedId>
+      <YellowId>40162</YellowId>
+      <BlueId>40141</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40118</PrismaticId>
     </GemmingTemplate>
   </GemmingTemplateOverrides>
   <ItemFilterEnabledOverride>
@@ -3137,13 +3178,13 @@
     <BossName />
   </Boss>
   <WarriorTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000000000000000000</WarriorTalents>
-  <PaladinTalents>000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000000000000000000</PaladinTalents>
+  <PaladinTalents>050501000000000000000000000500000000000000000000000005232051203331302133231331.0000100000000000001000001000001101</PaladinTalents>
   <HunterTalents>502000000000000000000000000253051012300132331052312515000032000000000000000000000.000000001000000000010100000000000</HunterTalents>
   <RogueTalents>00000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000000000000000000</RogueTalents>
   <PriestTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000000000000000000000000000000</PriestTalents>
   <ShamanTalents>55300015032133513223013510050500310000000000000000000000000000000000000000000000.01000000000000000000000000111</ShamanTalents>
   <MageTalents>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000</MageTalents>
-  <WarlockTalents>235000203002351025350033115100000000000000000000000000055000005100000000000000000.00000010001010000</WarlockTalents>
+  <WarlockTalents>000000000000000000000000000000000000000000000000000000000000000000000000000000000.00000000000000000</WarlockTalents>
   <DruidTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000000000</DruidTalents>
   <DeathKnightTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000000000000000000000000000000</DeathKnightTalents>
   <CustomItemInstances />

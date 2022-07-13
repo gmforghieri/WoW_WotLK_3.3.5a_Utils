@@ -2,20 +2,10 @@
 <Character xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Region>US</Region>
   <Race>Orc</Race>
-  <Class>Warlock</Class>
-  <ActiveBuffs>Strength of Earth Totem</ActiveBuffs>
-  <ActiveBuffs>Enhancing Totems (Agility/Strength)</ActiveBuffs>
-  <ActiveBuffs>Blessing of Might</ActiveBuffs>
-  <ActiveBuffs>Improved Blessing of Might</ActiveBuffs>
-  <ActiveBuffs>Unleashed Rage</ActiveBuffs>
+  <Class>Shaman</Class>
   <ActiveBuffs>Sanctified Retribution</ActiveBuffs>
   <ActiveBuffs>Swift Retribution</ActiveBuffs>
-  <ActiveBuffs>Commanding Shout</ActiveBuffs>
-  <ActiveBuffs>Commanding Presence (Health)</ActiveBuffs>
   <ActiveBuffs>Arcane Intellect</ActiveBuffs>
-  <ActiveBuffs>Leader of the Pack</ActiveBuffs>
-  <ActiveBuffs>Improved Leader of the Pack</ActiveBuffs>
-  <ActiveBuffs>Improved Icy Talons</ActiveBuffs>
   <ActiveBuffs>Judgements of the Wise</ActiveBuffs>
   <ActiveBuffs>Blessing of Wisdom</ActiveBuffs>
   <ActiveBuffs>Improved Blessing of Wisdom</ActiveBuffs>
@@ -24,17 +14,12 @@
   <ActiveBuffs>Wrath of Air Totem</ActiveBuffs>
   <ActiveBuffs>Totem of Wrath (Spell Power)</ActiveBuffs>
   <ActiveBuffs>Divine Spirit</ActiveBuffs>
-  <ActiveBuffs>Power Word: Fortitude</ActiveBuffs>
-  <ActiveBuffs>Improved Power Word: Fortitude</ActiveBuffs>
   <ActiveBuffs>Mark of the Wild</ActiveBuffs>
   <ActiveBuffs>Improved Mark of the Wild</ActiveBuffs>
   <ActiveBuffs>Blessing of Kings</ActiveBuffs>
   <ActiveBuffs>Heroism/Bloodlust</ActiveBuffs>
-  <ActiveBuffs>Sunder Armor</ActiveBuffs>
-  <ActiveBuffs>Faerie Fire</ActiveBuffs>
   <ActiveBuffs>Heart of the Crusader</ActiveBuffs>
   <ActiveBuffs>Judgement of Wisdom</ActiveBuffs>
-  <ActiveBuffs>Savage Combat</ActiveBuffs>
   <ActiveBuffs>Improved Scorch</ActiveBuffs>
   <ActiveBuffs>Earth and Moon</ActiveBuffs>
   <ActiveBuffs>Improved Faerie Fire</ActiveBuffs>
@@ -42,8 +27,9 @@
   <ActiveBuffs>Potion of Speed</ActiveBuffs>
   <ActiveBuffs>Potion of Speed (Double Pot Trick)</ActiveBuffs>
   <ActiveBuffs>Fish Feast</ActiveBuffs>
-  <ActiveBuffs>Deathbringer Garb 2 Piece Bonus</ActiveBuffs>
-  <CurrentModel>Warlock</CurrentModel>
+  <ActiveBuffs>Worldbreaker Garb (T8) 2 Piece Bonus</ActiveBuffs>
+  <ActiveBuffs>Worldbreaker Garb (T8) 4 Piece Bonus</ActiveBuffs>
+  <CurrentModel>Elemental</CurrentModel>
   <EnforceMetagemRequirements>false</EnforceMetagemRequirements>
   <CalculationOptions>
     <item>
@@ -453,89 +439,24 @@
 &lt;/CalculationOptionsElemental&gt;</string>
       </value>
     </item>
-    <item>
-      <key>
-        <string>Warlock</string>
-      </key>
-      <value>
-        <string>&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;CalculationOptionsWarlock xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;Pet&gt;Felhunter&lt;/Pet&gt;
-  &lt;Imbue&gt;Grand Spellstone&lt;/Imbue&gt;
-  &lt;UseInfernal&gt;false&lt;/UseInfernal&gt;
-  &lt;TargetLevel&gt;83&lt;/TargetLevel&gt;
-  &lt;Duration&gt;300&lt;/Duration&gt;
-  &lt;Latency&gt;0.1&lt;/Latency&gt;
-  &lt;ThirtyFive&gt;0.25&lt;/ThirtyFive&gt;
-  &lt;TwentyFive&gt;0.15&lt;/TwentyFive&gt;
-  &lt;Rotations&gt;
-    &lt;Rotation&gt;
-      &lt;Name&gt;Affliction&lt;/Name&gt;
-      &lt;Filler&gt;Shadow Bolt&lt;/Filler&gt;
-      &lt;Execute&gt;Drain Soul&lt;/Execute&gt;
-      &lt;SpellPriority&gt;
-        &lt;string&gt;Haunt&lt;/string&gt;
-        &lt;string&gt;Corruption&lt;/string&gt;
-        &lt;string&gt;Unstable Affliction&lt;/string&gt;
-        &lt;string&gt;Curse Of Agony&lt;/string&gt;
-      &lt;/SpellPriority&gt;
-    &lt;/Rotation&gt;
-    &lt;Rotation&gt;
-      &lt;Name&gt;Demonology&lt;/Name&gt;
-      &lt;Filler&gt;Shadow Bolt&lt;/Filler&gt;
-      &lt;Execute&gt;Soul Fire&lt;/Execute&gt;
-      &lt;SpellPriority&gt;
-        &lt;string&gt;Immolation Aura&lt;/string&gt;
-        &lt;string&gt;Corruption&lt;/string&gt;
-        &lt;string&gt;Immolate&lt;/string&gt;
-        &lt;string&gt;Incinerate (Under Molten Core)&lt;/string&gt;
-        &lt;string&gt;Curse Of Agony&lt;/string&gt;
-      &lt;/SpellPriority&gt;
-    &lt;/Rotation&gt;
-    &lt;Rotation&gt;
-      &lt;Name&gt;Destruction&lt;/Name&gt;
-      &lt;Filler&gt;Incinerate&lt;/Filler&gt;
-      &lt;Execute /&gt;
-      &lt;SpellPriority&gt;
-        &lt;string&gt;Immolate&lt;/string&gt;
-        &lt;string&gt;Conflagrate&lt;/string&gt;
-        &lt;string&gt;Incinerate (Under Backdraft)&lt;/string&gt;
-        &lt;string&gt;Chaos Bolt&lt;/string&gt;
-        &lt;string&gt;Curse Of Doom&lt;/string&gt;
-      &lt;/SpellPriority&gt;
-    &lt;/Rotation&gt;
-  &lt;/Rotations&gt;
-  &lt;ActiveRotationIndex&gt;0&lt;/ActiveRotationIndex&gt;
-  &lt;PerSP&gt;1&lt;/PerSP&gt;
-  &lt;ConvertTotem&gt;false&lt;/ConvertTotem&gt;
-  &lt;PerFlametongue&gt;500&lt;/PerFlametongue&gt;
-  &lt;PerMagicBuff&gt;0&lt;/PerMagicBuff&gt;
-  &lt;PerCritBuff&gt;0&lt;/PerCritBuff&gt;
-  &lt;PerInt&gt;0&lt;/PerInt&gt;
-  &lt;PerSpi&gt;0&lt;/PerSpi&gt;
-  &lt;PerHealth&gt;0&lt;/PerHealth&gt;
-  &lt;NoProcs&gt;false&lt;/NoProcs&gt;
-&lt;/CalculationOptionsWarlock&gt;</string>
-      </value>
-    </item>
   </CalculationOptions>
-  <Head>45150.41285.40026.0.3820</Head>
-  <Neck>45133.40049.0.0.0</Neck>
-  <Shoulders>46136.40049.0.0.3810</Shoulders>
-  <Back>45618.39998.0.0.3722</Back>
-  <Chest>47604.39998.39998.39998.3832</Chest>
-  <Wrist>45446.39998.0.0.2332</Wrist>
+  <Head>46209.41285.40051.0.3820</Head>
+  <Neck>45133.40051.0.0.0</Neck>
+  <Shoulders>46211.39998.0.0.3810</Shoulders>
+  <Back>45242.40049.0.0.3859</Back>
+  <Chest>46206.42144.42144.0.3832</Chest>
+  <Wrist>45460.42144.0.0.2332</Wrist>
   <Hands>45665.39998.39998.0.3604</Hands>
-  <Waist>45557.40026.39998.39998.0</Waist>
-  <Legs>46139.39998.39998.0.3719</Legs>
-  <Feet>45135.39998.40049.0.3606</Feet>
-  <Finger1>46046.39998.0.0.0</Finger1>
-  <Finger2>45495.39998.0.0.0</Finger2>
+  <Waist>45151.40014.0.0.0</Waist>
+  <Legs>46210.39998.40027.0.3719</Legs>
+  <Feet>45537.39998.40027.0.3606</Feet>
+  <Finger1>46046.40051.0.0.0</Finger1>
+  <Finger2>48957.0.0.0.0</Finger2>
   <Trinket1>40432.0.0.0.0</Trinket1>
   <Trinket2>45518.0.0.0.0</Trinket2>
-  <MainHand>45620.39998.0.0.3834</MainHand>
-  <OffHand>45617.0.0.0.0</OffHand>
-  <Ranged>45294.39998.0.0.0</Ranged>
+  <MainHand>46035.40051.0.0.3834</MainHand>
+  <OffHand>45470.39998.0.0.1128</OffHand>
+  <Ranged>40267.0.0.0.0</Ranged>
   <Projectile>41165.0.0.0.0</Projectile>
   <CustomGemmingTemplates>
     <GemmingTemplate>
@@ -1189,126 +1110,6 @@
       <BlueId>40134</BlueId>
       <MetaId>41285</MetaId>
       <PrismaticId>40175</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Warlock</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39998</RedId>
-      <YellowId>39998</YellowId>
-      <BlueId>39998</BlueId>
-      <MetaId>41333</MetaId>
-      <PrismaticId>39998</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Warlock</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39998</RedId>
-      <YellowId>40049</YellowId>
-      <BlueId>40026</BlueId>
-      <MetaId>41333</MetaId>
-      <PrismaticId>39998</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Warlock</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39998</RedId>
-      <YellowId>40051</YellowId>
-      <BlueId>40026</BlueId>
-      <MetaId>41333</MetaId>
-      <PrismaticId>39998</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Warlock</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39998</RedId>
-      <YellowId>39998</YellowId>
-      <BlueId>39998</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>39998</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Warlock</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39998</RedId>
-      <YellowId>40049</YellowId>
-      <BlueId>40026</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>39998</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Warlock</Model>
-      <Enabled>true</Enabled>
-      <Group>Rare</Group>
-      <RedId>39998</RedId>
-      <YellowId>40051</YellowId>
-      <BlueId>40026</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>39998</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Warlock</Model>
-      <Enabled>false</Enabled>
-      <Group>Epic</Group>
-      <RedId>40113</RedId>
-      <YellowId>40113</YellowId>
-      <BlueId>40113</BlueId>
-      <MetaId>41333</MetaId>
-      <PrismaticId>40113</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Warlock</Model>
-      <Enabled>false</Enabled>
-      <Group>Epic</Group>
-      <RedId>40113</RedId>
-      <YellowId>40153</YellowId>
-      <BlueId>40133</BlueId>
-      <MetaId>41333</MetaId>
-      <PrismaticId>40113</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Warlock</Model>
-      <Enabled>false</Enabled>
-      <Group>Epic</Group>
-      <RedId>40113</RedId>
-      <YellowId>40155</YellowId>
-      <BlueId>40133</BlueId>
-      <MetaId>41333</MetaId>
-      <PrismaticId>40113</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Warlock</Model>
-      <Enabled>false</Enabled>
-      <Group>Epic</Group>
-      <RedId>40113</RedId>
-      <YellowId>40113</YellowId>
-      <BlueId>40113</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>40113</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Warlock</Model>
-      <Enabled>false</Enabled>
-      <Group>Epic</Group>
-      <RedId>40113</RedId>
-      <YellowId>40153</YellowId>
-      <BlueId>40133</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>40113</PrismaticId>
-    </GemmingTemplate>
-    <GemmingTemplate>
-      <Model>Warlock</Model>
-      <Enabled>false</Enabled>
-      <Group>Epic</Group>
-      <RedId>40113</RedId>
-      <YellowId>40155</YellowId>
-      <BlueId>40133</BlueId>
-      <MetaId>41285</MetaId>
-      <PrismaticId>40113</PrismaticId>
     </GemmingTemplate>
   </GemmingTemplateOverrides>
   <ItemFilterEnabledOverride>
@@ -3143,13 +2944,13 @@
   <PriestTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000000000000000000000000000000</PriestTalents>
   <ShamanTalents>55300015032133513223013510050500310000000000000000000000000000000000000000000000.01000000000000000000000000111</ShamanTalents>
   <MageTalents>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000</MageTalents>
-  <WarlockTalents>235000203002351025350033115100000000000000000000000000055000005100000000000000000.00000010001010000</WarlockTalents>
+  <WarlockTalents>000000000000000000000000000000000000000000000000000000000000000000000000000000000.00000000000000000</WarlockTalents>
   <DruidTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000000000</DruidTalents>
   <DeathKnightTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000000000000000000000000000000</DeathKnightTalents>
   <CustomItemInstances />
   <WaistBlacksmithingSocketEnabled>true</WaistBlacksmithingSocketEnabled>
   <HandsBlacksmithingSocketEnabled>false</HandsBlacksmithingSocketEnabled>
   <WristBlacksmithingSocketEnabled>false</WristBlacksmithingSocketEnabled>
-  <PrimaryProfession>Tailoring</PrimaryProfession>
+  <PrimaryProfession>Jewelcrafting</PrimaryProfession>
   <SecondaryProfession>Engineering</SecondaryProfession>
 </Character>
