@@ -495,6 +495,7 @@
     &lt;Rotation&gt;
       &lt;Name&gt;Destruction&lt;/Name&gt;
       &lt;Filler&gt;Incinerate&lt;/Filler&gt;
+      &lt;Execute /&gt;
       &lt;SpellPriority&gt;
         &lt;string&gt;Immolate&lt;/string&gt;
         &lt;string&gt;Conflagrate&lt;/string&gt;
@@ -519,20 +520,20 @@
     </item>
   </CalculationOptions>
   <Head>45150.41285.40026.0.3820</Head>
-  <Neck>45243.39998.0.0.0</Neck>
+  <Neck>44661.39998.0.0.0</Neck>
   <Shoulders>46068.39998.39998.0.3810</Shoulders>
-  <Back>45618.39998.0.0.3722</Back>
+  <Back>44005.39998.0.0.3722</Back>
   <Chest>46137.39998.40051.0.3832</Chest>
-  <Wrist>45446.39998.0.0.2332</Wrist>
-  <Hands>45273.0.0.0.3604</Hands>
-  <Waist>40561.39998.0.0.0</Waist>
+  <Wrist>44008.39998.0.0.2332</Wrist>
+  <Hands>45840.0.0.0.3604</Hands>
+  <Waist>45557.40026.39998.39998.0</Waist>
   <Legs>46139.39998.39998.0.3719</Legs>
-  <Feet>45135.39998.39998.0.3606</Feet>
+  <Feet>45566.40026.39998.0.3606</Feet>
   <Finger1>48957.0.0.0.0</Finger1>
   <Finger2>40399.0.0.0.0</Finger2>
   <Trinket1>40432.0.0.0.0</Trinket1>
   <Trinket2>40255.0.0.0.0</Trinket2>
-  <MainHand>45620.39998.0.0.3834</MainHand>
+  <MainHand>45527.0.0.0.3834</MainHand>
   <OffHand>45271.0.0.0.0</OffHand>
   <Ranged>45294.39998.0.0.0</Ranged>
   <Projectile>41165.0.0.0.0</Projectile>
@@ -566,6 +567,16 @@
       <BlueId>42144</BlueId>
       <MetaId>0</MetaId>
       <PrismaticId>42144</PrismaticId>
+    </GemmingTemplate>
+    <GemmingTemplate>
+      <Model>Warlock</Model>
+      <Enabled>true</Enabled>
+      <Group>Custom</Group>
+      <RedId>39998</RedId>
+      <YellowId>39998</YellowId>
+      <BlueId>39998</BlueId>
+      <MetaId>0</MetaId>
+      <PrismaticId>0</PrismaticId>
     </GemmingTemplate>
   </CustomGemmingTemplates>
   <GemmingTemplateOverrides>
@@ -3142,7 +3153,7 @@
   <PriestTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000000000000000000000000000000</PriestTalents>
   <ShamanTalents>55300015032133513223013510050500310000000000000000000000000000000000000000000000.01000000000000000000000000111</ShamanTalents>
   <MageTalents>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000</MageTalents>
-  <WarlockTalents>235000203012351005350033115100000000000000000000000000055000005200000000000000000.00000010001010000</WarlockTalents>
+  <WarlockTalents>235000203002351025350033115100000000000000000000000000055000005100000000000000000.00000010001010000</WarlockTalents>
   <DruidTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0000000000000000000000000</DruidTalents>
   <DeathKnightTalents>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000000000000000000000000000000</DeathKnightTalents>
   <CustomItemInstances />
