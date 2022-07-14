@@ -585,22 +585,22 @@
     </item>
   </CalculationOptions>
   <Head>46172.41285.39998.0.3820</Head>
-  <Neck>45133.40051.0.0.0</Neck>
+  <Neck>44661.39998.0.0.0</Neck>
   <Shoulders>46165.39998.0.0.3810</Shoulders>
-  <Back>45618.39998.0.0.3722</Back>
+  <Back>40405.0.0.0.3722</Back>
   <Chest>46168.39998.39998.0.3832</Chest>
-  <Wrist>45446.39998.0.0.2332</Wrist>
-  <Hands>45665.39998.39998.0.3604</Hands>
+  <Wrist>44008.39998.0.0.2332</Wrist>
+  <Hands>45840.0.0.0.3604</Hands>
   <Waist>45557.40026.39998.39998.0</Waist>
-  <Legs>46170.39998.39998.0.3719</Legs>
-  <Feet>45135.39998.40049.0.3606</Feet>
-  <Finger1>46046.39998.0.0.0</Finger1>
-  <Finger2>45495.39998.0.0.0</Finger2>
+  <Legs>46170.39998.40049.0.3719</Legs>
+  <Feet>45566.40026.39998.0.3606</Feet>
+  <Finger1>45515.0.0.0.0</Finger1>
+  <Finger2>45451.0.0.0.0</Finger2>
   <Trinket1>45466.0.0.0.0</Trinket1>
-  <Trinket2>45518.0.0.0.0</Trinket2>
-  <MainHand>45620.39998.0.0.3834</MainHand>
-  <OffHand>45617.0.0.0.0</OffHand>
-  <Ranged>45294.39998.0.0.0</Ranged>
+  <Trinket2>40432.0.0.0.0</Trinket2>
+  <MainHand>45527.0.0.0.3834</MainHand>
+  <OffHand>45115.0.0.0.0</OffHand>
+  <Ranged>45511.0.0.0.0</Ranged>
   <Projectile>41165.0.0.0.0</Projectile>
   <CustomGemmingTemplates>
     <GemmingTemplate>
