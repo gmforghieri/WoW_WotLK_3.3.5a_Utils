@@ -683,20 +683,20 @@
   </CalculationOptions>
   <Head>45610.41398.42702.0.3817</Head>
   <Neck>45517.40017.0.0.0</Neck>
-  <Shoulders>46203.40017.0.0.3808</Shoulders>
+  <Shoulders>46203.40003.0.0.3808</Shoulders>
   <Back>45461.40017.0.0.3831</Back>
   <Chest>46205.40017.40017.0.3832</Chest>
   <Wrist>45460.40017.0.0.3845</Wrist>
   <Hands>46200.40017.0.0.3604</Hands>
   <Waist>45553.40017.40017.40017.0</Waist>
   <Legs>46208.40017.40017.0.3823</Legs>
-  <Feet>45244.40003.40003.0.3606</Feet>
+  <Feet>45244.40017.40017.0.3606</Feet>
   <Finger1>45456.40017.0.0.0</Finger1>
   <Finger2>45503.0.0.0.0</Finger2>
   <Trinket1>45522.0.0.0.0</Trinket1>
   <Trinket2>45609.0.0.0.0</Trinket2>
   <MainHand>46035.40017.0.0.3789</MainHand>
-  <OffHand>46097.40017.0.0.3789</OffHand>
+  <OffHand>46097.40003.0.0.3789</OffHand>
   <Ranged>40322.0.0.0.0</Ranged>
   <Projectile>41165.0.0.0.0</Projectile>
   <CustomGemmingTemplates>
@@ -806,9 +806,9 @@
       <Group>Custom</Group>
       <RedId>40058</RedId>
       <YellowId>40058</YellowId>
-      <BlueId>42702</BlueId>
-      <MetaId>0</MetaId>
-      <PrismaticId>42702</PrismaticId>
+      <BlueId>40058</BlueId>
+      <MetaId>41398</MetaId>
+      <PrismaticId>40058</PrismaticId>
     </GemmingTemplate>
   </CustomGemmingTemplates>
   <GemmingTemplateOverrides>
