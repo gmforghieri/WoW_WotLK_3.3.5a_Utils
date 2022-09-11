@@ -41,7 +41,6 @@
   <ActiveBuffs>Potion of Speed (Double Pot Trick)</ActiveBuffs>
   <ActiveBuffs>Fish Feast</ActiveBuffs>
   <ActiveBuffs>Nightsong Garb (T8) 2 Piece Bonus</ActiveBuffs>
-  <ActiveBuffs>Nightsong Garb (T8) 4 Piece Bonus</ActiveBuffs>
   <CurrentModel>Moonkin</CurrentModel>
   <EnforceMetagemRequirements>false</EnforceMetagemRequirements>
   <CalculationOptions>
@@ -541,19 +540,19 @@
   </CalculationOptions>
   <Head>46191.41285.39998.0.3820</Head>
   <Neck>45133.40049.0.0.0</Neck>
-  <Shoulders>46196.39998.0.0.3810</Shoulders>
-  <Back>45242.40049.0.0.3722</Back>
-  <Chest>46194.39998.39998.0.3832</Chest>
-  <Wrist>45149.0.0.0.2332</Wrist>
-  <Hands>45462.39998.39998.0.3604</Hands>
-  <Waist>45557.39998.39998.39998.0</Waist>
-  <Legs>46192.39998.39998.0.3719</Legs>
-  <Feet>45537.39998.39998.0.3606</Feet>
+  <Shoulders>45136.40026.39998.0.3810</Shoulders>
+  <Back>45242.40048.0.0.3722</Back>
+  <Chest>45272.40048.0.0.3832</Chest>
+  <Wrist>45446.39998.0.0.2332</Wrist>
+  <Hands>45665.39998.39998.0.3604</Hands>
+  <Waist>45616.39998.39998.39998.0</Waist>
+  <Legs>46192.40049.39998.0.3719</Legs>
+  <Feet>45537.39998.40026.0.3606</Feet>
   <Finger1>46046.39998.0.0.0</Finger1>
-  <Finger2>40399.0.0.0.0</Finger2>
+  <Finger2>45495.39998.0.0.0</Finger2>
   <Trinket1>45308.0.0.0.0</Trinket1>
   <Trinket2>45518.0.0.0.0</Trinket2>
-  <MainHand>45457.39998.39998.0.3854</MainHand>
+  <MainHand>45620.39998.0.0.3854</MainHand>
   <OffHand>45314.0.0.0.0</OffHand>
   <Ranged>40321.0.0.0.0</Ranged>
   <Projectile>41165.0.0.0.0</Projectile>
