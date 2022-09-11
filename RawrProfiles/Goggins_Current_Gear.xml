@@ -1386,159 +1386,159 @@
     </ItemFilterEnabledOverride>
     <ItemFilterEnabledOverride>
       <Name>Tier 8 Raids (10/25) ULD</Name>
-      <Enabled>false</Enabled>
+      <Enabled>true</Enabled>
       <SubFilterOverride>
         <ItemFilterEnabledOverride>
           <Name>Ulduar (10)</Name>
-          <Enabled>false</Enabled>
+          <Enabled>true</Enabled>
           <SubFilterOverride>
             <ItemFilterEnabledOverride>
               <Name>Flame Leviathan</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Ignis the Furnace Master</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Razorscale</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>XT-002 Deconstructor</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Assembly of Iron</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Kologarn</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Auriaya</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Mimiron</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Hodir</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Thorim</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Freya</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>General Vezax</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Yogg-Saron</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Algalon the Observer</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Quest Rewards</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Trash</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Other</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
           </SubFilterOverride>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Ulduar (25)</Name>
-          <Enabled>false</Enabled>
+          <Enabled>true</Enabled>
           <SubFilterOverride>
             <ItemFilterEnabledOverride>
               <Name>Flame Leviathan</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Ignis the Furnace Master</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Razorscale</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>XT-002 Deconstructor</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Assembly of Iron</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Kologarn</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Auriaya</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Mimiron</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Hodir</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Thorim</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Freya</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>General Vezax</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Yogg-Saron</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Algalon the Observer</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Quest Rewards</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Trash</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
             <ItemFilterEnabledOverride>
               <Name>Other</Name>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
             </ItemFilterEnabledOverride>
           </SubFilterOverride>
         </ItemFilterEnabledOverride>
         <ItemFilterEnabledOverride>
           <Name>Other</Name>
-          <Enabled>false</Enabled>
+          <Enabled>true</Enabled>
         </ItemFilterEnabledOverride>
       </SubFilterOverride>
     </ItemFilterEnabledOverride>
